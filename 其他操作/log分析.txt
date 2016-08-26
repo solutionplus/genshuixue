@@ -1,0 +1,2 @@
+
+[rd@al-bj-search-loganalysis01:/apps/log/nginx/www.genshuixue.com/20160620/00]$ cat www.genshuixue.com-al-bj-web-www01-20160620000001.access.log | awk -F "\x01" '{print NF}' | head

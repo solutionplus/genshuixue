@@ -1,0 +1,7 @@
+部署站点，页面上线
+爬虫程序返回字段要匹配http://schema.baijiahulian.com/get_schema_attr/
+在data.py里添加一个list（具体分类），process.py依次生成m站面包屑，list页，pc段导航
+1、http://www.genshuixue.com/i-admin/online/
+2、点击【添加配置->输入版本描述->点击生成版本号】成功后会生成一个唯一的版本号。选择类似的模板
+3、分别配置pc（home，list，detail，course）和m站（home，list，detail，course，list_ajax），后面带数字的都要更新
+4、申请上线：旧的直接覆盖掉（如：bxb），学长批准上线

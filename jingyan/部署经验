@@ -1,0 +1,4 @@
+先put经验得到result里的数据
+没有的bread要在数据库ques里的experience_tag表手动加
+然后把数据put到/ad/zhanqun/database/corpora/inc/20160723
+在更新experience_scan表，用/apps/home/rd/xuzhihao/habo/etl/python/task/seo/jingyan/insert_url.py
