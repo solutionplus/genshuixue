@@ -1,0 +1,9 @@
+sudo pip install redis
+ps -ef | grep pyspider
+kill -9 65480
+➜  Downloads tar -xvf mysql-connector-python-2.1.1.tar.gz 
+➜  Downloads cd mysql-connector-python-2.1.1 
+➜  mysql-connector-python-2.1.1 python setup.py build
+➜  mysql-connector-python-2.1.1 sudo python setup.py install
+➜  mysql-connector-python-2.1.1 ps -ef | grep pyspider      
+➜  Downloads sh start.sh 

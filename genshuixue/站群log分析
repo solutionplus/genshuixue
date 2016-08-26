@@ -1,0 +1,354 @@
+[rd@al-bj-search-loganalysis01:~]$ cd habo/etl/
+app/              db/               filter.bloom      .gitignore        log/              python/           tasks/
+commands/         doc/              .git/             lib/              nohup.out         QueryResult.java
+[rd@al-bj-search-loganalysis01:~]$ cd habo/etl/python/task/seo/
+[rd@al-bj-search-loganalysis01:~/habo/etl/python/task/seo]$ ls
+baizhan_statistic.py  habo_seo_statistics.py  log  zhanqun_statistic.py  zhanqun_statistic.pyc
+[rd@al-bj-search-loganalysis01:~/habo/etl/python/task/seo]$ vim baizhan_statistic.py
+[rd@al-bj-search-loganalysis01:~/habo/etl/python/task/seo]$ ls /apps3/rd/yangxiaoyun/zhanqun/online/jobs/tongji/data/20160622/
+part-00000  _SUCCESS
+[rd@al-bj-search-loganalysis01:~/habo/etl/python/task/seo]$ vim  /apps3/rd/yangxiaoyun/zhanqun/online/jobs/tongji/data/20160622/part-00000
+[rd@al-bj-search-loganalysis01:~/habo/etl/python/task/seo]$ ls
+baizhan_statistic.py  habo_seo_statistics.py  log  zhanqun_statistic.py  zhanqun_statistic.pyc
+[rd@al-bj-search-loganalysis01:~/habo/etl/python/task/seo]$ vim zhanqun_statistic.py
+[rd@al-bj-search-loganalysis01:~/habo/etl/python/task/seo]$ head /apps3/rd/xuzhihao/subject_id
+1000000	31	SAT
+1000001	31	SAT
+1000002	31	SAT
+1000003	31	SAT
+1000004	31	SAT
+1000005	31	SAT
+1000006	31	SAT
+1000007	31	SAT
+1000008	31	SAT
+1000009	31	SAT
+[rd@al-bj-search-loganalysis01:~/habo/etl/python/task/seo]$ ls
+baizhan_statistic.py  habo_seo_statistics.py  log  zhanqun_statistic.py  zhanqun_statistic.pyc
+[rd@al-bj-search-loganalysis01:~/habo/etl/python/task/seo]$ cp baizhan_statistic.py zhanqun_statistic.py ~/zengsheng/
+[rd@al-bj-search-loganalysis01:~/habo/etl/python/task/seo]$ ls
+baizhan_statistic.py  habo_seo_statistics.py  log  zhanqun_statistic.py  zhanqun_statistic.pyc
+[rd@al-bj-search-loganalysis01:~/habo/etl/python/task/seo]$ cd ..
+[rd@al-bj-search-loganalysis01:~/habo/etl/python/task]$ ls
+20150901_20150930_active.filter.bloom  baijiabao_pv.py                 key_data_weekly.py                     sku_video_course.py
+20150907_20150913_active.filter.bloom  base_log_data_day.py            key_data_weekly_sun.py                 source
+20150909_20150909_active.filter.bloom  base_log_data_hour.py           log                                    source_analysis.py
+20150910_20150910_active.filter.bloom  base_order_info.py              models.pyc                             source_analysis.pyc
+20150912_20150912_active.filter.bloom  behavior                        monitor2.py                            source_keyword.py
+20160201_20160229_active.filter.bloom  Board_director_trade_info.py    monitor3.py                            source_zn_analysis_hour.py
+20160222_20160228_active.filter.bloom  board_investor_data_report.pyc  monitor.py                             student_info.py
+20160225_20160225_active.filter.bloom  bp                              nginx_real_log_day.py                  student_star.py
+20160301_20160331_active.filter.bloom  bp_excel                        nginx_real_log_hour.py                 sub_branch
+20160328_20160328_active.filter.bloom  b.txt                           nohup.out                              sync_db_hive_column.py
+20160328_20160403_active.filter.bloom  business_health.py              order_flow_day.py                      task_for_616.py
+20160329_20160329_active.filter.bloom  checkin_score_info.py           organization_info.py                   teacher_business_course.py
+20160501_20160531_active.filter.bloom  class_course_quality.py         org_course_transfer.py                 teacher_business_score.py
+20160509_20160509_active.filter.bloom  class_info.py                   org_detail_info.py                     teacher_course_info.py
+20160509_20160515_active.filter.bloom  class_info_sun.py               org_kpi.pyc                            teacher_course_transfer.py
+20160510_20160510_active.filter.bloom  clean_paid_data_cheatscore.py   overall_quality_student_info.py        teacher_growth_info.py
+20160516_20160522_active.filter.bloom  clean_paid_data.py              overall_quality_teacher_trans_info.py  teacher_info.py
+20160521_20160521_active.filter.bloom  clean_permit_info.py            payment_method.py                      teacher.java
+20160522_20160522_active.filter.bloom  common                          php_task                               teacher_label
+20160523_20160529_active.filter.bloom  common_constants.pyc            pig_1461227763551.log                  teacher_pv.py
+20160525_20160525_active.filter.bloom  common_func.py                  pig_1461227943209.log                  threeCountryAnalysis.py
+20160527_20160527_active.filter.bloom  common_func.pyc                 pig_1461228174411.log                  traffic_map.py
+20160528_20160528_active.filter.bloom  core_index                      pig_1461236460496.log                  user_behavior
+20160529_20160529_active.filter.bloom  ctr                             platform_subside_analysis.py           video_active_user.py
+20160530_20160530_active.filter.bloom  ctr.lichuang.tmp                private_domain.py                      video_course_transfer.py
+20160530_20160605_active.filter.bloom  ctr_log_parse.py                purchase_order_customer_service.py     video_hours_patch.py
+616_class_filter.py                    dt_app_retention_db.py          pv_format.log                          video_log.py
+903_is_in_class.py                     dt_app_retention.py             pv_format_summary.py                   video_log_server.py
+a1.txt                                 dt_invite_active_analysis.py    pv_teacher.py                          video_log_sun.py
+a2.txt                                 dt_invite_app_retention.py      qreserve_count_total.py                video_teacher_punctual.py
+a3.txt                                 dt_invite_code_total.py         real_pv.py                             video_user_day.py
+a5.txt                                 etl_for_rec.py                  register_summary_info.py               wechat_statistics.py
+a6.txt                                 extract_comment_tag_word.py     response_time.py                       zhidahao
+active_monitor                         extract_pv.py                   revenue_info.py                        zhidahao_baidu_fix_data.py
+active_user.py                         filter.bloom                    roi.py                                 zhidahao_baidu_fix_online_app.py
+add_partition.py                       first_class_teacher.py          sample_filter.py                       zhidahao_baidu_method.py
+anti_cheat                             first_order.py                  search_log_etl.py                      zhidahao_baidu_method.pyc
+app_active_log_new.py                  galaxy_base_data.py             sem_generator.py                       zhidahao_baidu_org_submit.py
+app_active_log_new.py.log              galaxy_etl.py                   sem_keyword_report_download.py         zhidahao_baidu_org_submit.pyc
+app_active.py                          galaxy_etl.pyc                  sem_keyword_report.py                  zhidahao_baidu_quality.py
+app_channel_order.py                   good_teacher_filter.py          sem_plan.py                            zhidahao_baidu_query_submit.py
+app_channel.py                         habo_flow_hour.py               send_pv_sms.py                         zhidahao_baidu_teacher_submit.py
+app_channel_retention.py               habo_report.py                  seo                                    zhidahao_baidu_teacher_submit.pyc
+  1 #!/usr/bin/python
+  2 # -*- coding: utf-8 -*-
+  3 from collections import defaultdict
+  4
+  5 __author__ = 'Will Wang <wangweiwei@baijiahulian.com>'
+  6 __version__ = "1.2.0"
+  7 __date__ = "15/1/9"
+  8 __doc__ = """
+  9             1.增加fetch_by_map方法
+ 10             2.增加使用params取数据方法
+ 11             3.增加将dict数据直接插入到mysql的方法
+ 12             4.增加读写使用不同的数据库连接
+ 13             """
+ 14
+ 15 import MySQLdb
+ 16
+ 17
+ 18 class DBUtil():
+ 19     def __init__(self, reader, writer):
+ 20         if not isinstance(reader, dict):
+ 21             raise TypeError
+ 22         self.reader = reader
+ 23         if not writer:
+ 24             self.writer = reader
+ 25         else:
+ 26             self.writer = writer
+ 27         self.conn = None
+ 28         # 数据库写连接，使用drds
+ 29         self.conn_w = MySQLdb.connect(**self.writer)
+ 30         self.conn = MySQLdb.connect(**self.reader)
+ 31
+ 32     def fetch_one(self, sql, params=None, auto_close=True):
+ 33         cur = None
+ 34         try:
+ 35             sql = sql.strip()
+ 36             cur = self.conn.cursor()
+ 37             if params:
+ 38                 cur.execute(sql, params)
+ 39             else:
+ 40                 cur.execute(sql)
+ 41             result = cur.fetchone()
+ 42             return result
+ 43         except Exception, e:
+"DBUtil.py" 288L, 8283C                                                                                                                                 1,1           Top
+ 42             return result
+ 43         except Exception, e:
+ 44             if params:
+ 45                 print sql % params
+ 46             else:
+ 47                 print sql
+ 48             raise e
+ 49         finally:
+ 50             if cur and auto_close:
+ 51                 cur.close()
+ 52
+ 53     def fetch_all(self, sql, params=None, auto_close=True):
+ 54         """
+ 55         返回每行为Tuple
+ 56         :param sql:
+ 57         :param params:
+ 58         :return:
+ 59         """
+ 60         cur = None
+ 61         try:
+ 62             sql = sql.strip()
+ 63             cur = self.conn.cursor()
+ 64             cur.execute(sql, params)
+ 65             result = cur.fetchall()
+ 66             return result
+ 67         except Exception, e:
+ 68             if params:
+ 69                 print sql % params
+ 70             else:
+ 71                 print sql
+ 72             raise e
+ 73         finally:
+ 74             if cur and auto_close:
+ 75                 cur.close()
+ 76
+ 77     def fetch_data_with_map(self, sql, params=None, auto_close=True, columns=False):
+ 78         """
+ 79         返回数据为每行数据为一个map
+ 80         :param sql:
+ 81         :param params:
+ 82         :return:
+ 83         """
+ 84         cur = None
+                                                                                                                                                        42,13         16%
+ 83         """
+ 84         cur = None
+ 85         try:
+ 86             sql = sql.strip()
+ 87             cur = self.conn.cursor(MySQLdb.cursors.DictCursor)
+ 88             cur.execute(sql, params)
+ 89             result = cur.fetchall()
+ 90             if columns:
+ 91                 return result, self.get_columns(cur)
+ 92             else:
+ 93                 return result
+ 94         except Exception, e:
+ 95             if params:
+ 96                 print sql % params
+ 97             else:
+ 98                 print sql
+ 99             raise e
+100         finally:
+101             if cur and auto_close:
+102                 cur.close()
+103
+104     def fetch_one_with_map(self, sql, params=None, auto_close=True):
+105
+106         """
+107         返回数据为每行数据为一个map
+108         :param sql:
+109         :param params:
+110         :return:
+111         """
+112         cur = None
+113         try:
+114             sql = sql.strip()
+115             cur = self.conn.cursor(MySQLdb.cursors.DictCursor)
+116             cur.execute(sql, params)
+117             result = cur.fetchone()
+118             return result
+119         except Exception, e:
+120             if params:
+121                 print sql % params
+122             else:
+123                 print sql
+124             raise e
+125         finally:
+                                                                                                                                                        83,9          33%
+app_download_task.py                   hermes                          serializeyy.pkl                        zhidahao_baidu_top4_quality_teacher.py
+app_first_active_log.py                hot_city_count.py               shenma_news_sitemap.py                 zhidahao_quality_conf.py
+app_first_active_log.py.log            import_db_fields.py             sitemap_push.py                        zhidahao_quality_conf.pyc
+app_flow_map.py                        im_response_time.py             sku                                    zhidahao_update_base_info.py
+app_student_order_info.py              __init__.py                     sku_student_info.py                    zn_active_monitor.py
+app_user_retention.py                  __init__.pyc                    sku_teacher_class_course.py            zn_active_monitor.pyc
+article_uv_pv.py                       integrated_data_info.py         sku_teacher_course.py
+a.txt                                  integrated_data_info_update.py  sku_uv_pv.py
+[rd@al-bj-search-loganalysis01:~/habo/etl/python/task]$ cd user_behavior/^C
+[rd@al-bj-search-loganalysis01:~/habo/etl/python/task]$ cd ..
+[rd@al-bj-search-loganalysis01:~/habo/etl/python]$ ls
+20160101_20160131_active.filter.bloom                                              base_info_hour.sh            __init__.py             source_analysis_hour.sh
+20160104_20160104_active.filter.bloom                                              Board_trade.sh               load_topn_to_ib.sh      task
+20160104_20160110_active.filter.bloom                                              business_health.sh           log                     task_day.sh
+20160105_20160105_active.filter.bloom                                              checkin_score_count.sh       mapred                  teacher_business_course.sh
+20160106_20160106_active.filter.bloom                                              conf                         monitor2.sh             teacher_business_score.sh
+20160107_20160107_active.filter.bloom                                              crontab_list                 monitor3.log            teacher_pv_day.sh
+20160108_20160108_active.filter.bloom                                              db_schema.sh                 monitor3.sh             teacher_pv_hour.sh
+20160109_20160109_active.filter.bloom                                              dt_source_day.sh             monitor.sh              test_push.sh
+20160110_20160110_active.filter.bloom                                              dt_source_hour.sh            nohup.out               today_flow_hour.sh
+20160201_2016022928e50b51-ab6f-4f81-90c7-e9eae3979ca3_channel_active.filter.bloom  export.sh                    payment_method_hour.sh  update_ip.sh
+20160222_20160228e48d3305-8aa0-4fbb-aa55-9a6e0a245bd8_channel_active.filter.bloom  filter.bloom                 pkafka                  util
+20160225_201602258a2e4777-dd70-4b77-bada-55dacc4ade81_channel_active.filter.bloom  first_class_teacher_hour.sh  qreserve_info.sh        zhidahao_quality.sh
+advanced_info_day.sh                                                               good_teacher.sh              resources               zhidahao_submit.sh
+advanced_info_hour.sh                                                              habo_bp_info.sh              serialize.pkl
+anti_cheat.sh                                                                      habo_flow_hour.sh            serializeyy.pkl
+app_active_report.sh                                                               hot_city_day.sh              source_analysis_day.sh
+[rd@al-bj-search-loganalysis01:~/habo/etl/python]$ cd util/
+[rd@al-bj-search-loganalysis01:~/habo/etl/python/util]$ ls
+baidu_sem_sdk    DBFactory.pyc     hive_output_excel.py  IP.pyc             Mail_V2.py               OrgTeacherInfo.pyc  SequenceNumber.pyc  SubjectUtil.pyc
+ClassInfo.py     DBUtil.py         HiveUtil.py           kafka              Mail_V2.pyc              ParamUtil.py        ServiceRequest.py   TimeUtil.py
+ClassInfo.pyc    DBUtil.pyc        HiveUtil.pyc          LdapUtil.py        models.py                ParamUtil.pyc       ServiceRequest.pyc  TimeUtil.pyc
+common_func.py   DrillUtil.py      InfoBrightUtil.py     log                models.pyc               Properties.py       singleton.py        tool.py
+common_func.pyc  DrillUtil.pyc     InfoBrightUtil.pyc    log_generator.py   nginx_log_generator.pyc  Properties.pyc      singleton.pyc       tool.pyc
+config.py        file_util.py      __init__.py           log_generator.pyc  NginxLogParser.py        pylogger.py         skylark_my.py
+config.pyc       file_util.pyc     __init__.pyc          LogUtil.py         NginxLogParser.pyc       pylogger.pyc        skylark_my.pyc
+Constants.py     HBaseFactory.py   ipip.py               LogUtil.pyc        nginx_log_processor.py   RedisFactory.py     SMSUtil.py
+Constants.pyc    HBaseFactory.pyc  ipip.pyc              Mail.py            nginx_log_processor.pyc  RedisFactory.pyc    SMSUtil.pyc
+DBFactory.py     HiveFactory.pyc   IP.py                 Mail.pyc           OrgTeacherInfo.py        SequenceNumber.py   SubjectUtil.py
+[rd@al-bj-search-loganalysis01:~/habo/etl/python/util]$ cp SequenceNumber.py ~/zengsheng/
+[rd@al-bj-search-loganalysis01:~/habo/etl/python/util]$ cp DBFactory.py DBUtil.py ~/zengsheng/
+[rd@al-bj-search-loganalysis01:~/habo/etl/python/util]$ vim DBFactory.py
+[rd@al-bj-search-loganalysis01:~/habo/etl/python/util]$ vim DBUtil.py
+[rd@al-bj-search-loganalysis01:~/habo/etl/python/util]$ ls
+baidu_sem_sdk    DBFactory.pyc     hive_output_excel.py  IP.pyc             Mail_V2.py               OrgTeacherInfo.pyc  SequenceNumber.pyc  SubjectUtil.pyc
+ClassInfo.py     DBUtil.py         HiveUtil.py           kafka              Mail_V2.pyc              ParamUtil.py        ServiceRequest.py   TimeUtil.py
+ClassInfo.pyc    DBUtil.pyc        HiveUtil.pyc          LdapUtil.py        models.py                ParamUtil.pyc       ServiceRequest.pyc  TimeUtil.pyc
+common_func.py   DrillUtil.py      InfoBrightUtil.py     log                models.pyc               Properties.py       singleton.py        tool.py
+common_func.pyc  DrillUtil.pyc     InfoBrightUtil.pyc    log_generator.py   nginx_log_generator.pyc  Properties.pyc      singleton.pyc       tool.pyc
+config.py        file_util.py      __init__.py           log_generator.pyc  NginxLogParser.py        pylogger.py         skylark_my.py
+config.pyc       file_util.pyc     __init__.pyc          LogUtil.py         NginxLogParser.pyc       pylogger.pyc        skylark_my.pyc
+Constants.py     HBaseFactory.py   ipip.py               LogUtil.pyc        nginx_log_processor.py   RedisFactory.py     SMSUtil.py
+Constants.pyc    HBaseFactory.pyc  ipip.pyc              Mail.py            nginx_log_processor.pyc  RedisFactory.pyc    SMSUtil.pyc
+DBFactory.py     HiveFactory.pyc   IP.py                 Mail.pyc           OrgTeacherInfo.py        SequenceNumber.py   SubjectUtil.py
+[rd@al-bj-search-loganalysis01:~/habo/etl/python/util]$ cd ..
+[rd@al-bj-search-loganalysis01:~/habo/etl/python]$ cd resources/
+[rd@al-bj-search-loganalysis01:~/habo/etl/python/resources]$ ls
+0714f8c3-9e04-4cb3-8413-d3b6e81dfd6f  85b313b9-225b-4895-8f7f-7978c357c577  db.properties                         monitor3.html
+31b1c570-c57b-49cd-8efb-b42027e277ff  8a967f76-81f7-4003-92f8-4e709534d756  e6102f4a-64b0-40d2-adfe-6fa1bd0d3166  monitor.html
+35367ed6-391d-4466-83a0-0238b2fc3036  96d546a4-f03a-442d-b330-f751a619d9d0  e818556c-ca20-4f82-acdc-5a8855e81f26  mydata4vipweek2.dat
+36c68724-da25-4937-a408-7a918f46271f  97532124-5c43-4b45-b01f-948b27245c01  edff4e01-34ac-4ace-8d67-0510432eb523  redis.properties
+4af2aeaa-2366-4d75-b883-c65a88d33786  99ac0129-695b-4e15-810d-356d20bafaec  f6694c5c-c2cc-46d3-9db9-795e60c1d076  schema.html
+5165243b-443c-45bd-9450-424c6a6aed17  a1218d88-415a-4458-90a7-8ff03d53a367  f9bc296b-7784-41c1-9252-327e0156e5b6  subject.dat
+  1 #!/usr/bin/python
+  2 # -*- coding: utf-8 -*-
+  3 from util.HiveUtil import HiveUtil
+  4 from util.Properties import Properties
+  5 from util.DBUtil import DBUtil
+  6
+  7 __author__ = 'Will Wang <wangweiwei@baijiahulian.com>'
+  8 __version__ = "1.0.0"
+  9 __date__ = "15/3/26"
+ 10
+ 11
+ 12 class DBFactory(object):
+ 13     def __init__(self):
+ 14         self.dbs = {}
+ 15         import os
+ 16
+ 17         home = os.getenv('HOME')
+ 18         pro = Properties(home + '/habo/etl/python/resources/db.properties')
+ 19         self.property = pro.get_properties()
+ 20
+ 21     def get_db(self, name):
+ 22         """
+ 23         :rtype: DBUtil
+ 24         """
+ 25         if name in self.dbs:
+ 26             return self.dbs[name]
+ 27         else:
+ 28             if name == 'hive':
+ 29                 self.dbs[name] = HiveUtil()
+ 30                 return self.dbs[name]
+ 31             try:
+ 32                 charset = self.property[name + '.charset']
+ 33             except KeyError:
+ 34                 charset = 'utf8'
+ 35                 pass
+ 36             # 读取数据使用RDS
+ 37             read_conf = {
+ 38                 'host': self.property[name + '.host'],
+ 39                 'user': self.property[name + '.user'],
+ 40                 'passwd': self.property[name + '.passwd'],
+ 41                 'db': self.property[name + '.db'],
+ 42                 'port': int(self.property[name + '.port']),
+ 43                 'charset': charset,
+                                                                                                                                                        5,1           Top
+5cb48a85-2092-411b-b3ef-e21e1ecb2957  a4e3b25f-990c-47f3-b46d-9f7bd64ca707  hbase.properties                      subject_score.dat
+6ec4c56c-07b1-4f78-b164-f96cf23c9cf9  b6810439-ef8f-4144-a473-f3ae77bba8ff  ip.dat                                teacher_label
+81d65c3e-cbc4-4e2d-994b-567cc803bb8a  d365129b-47f6-4b06-81a6-adb28e3980e5  logging.conf                          video_quality_mail.html
+84cfce20-12f5-492f-83a7-b70740b792e2  d8b07517-d9d9-4edf-88a3-dac21b91891a  monitor2.html
+[rd@al-bj-search-loganalysis01:~/habo/etl/python/resources]$ cp db.properties ~/zengsheng/
+[rd@al-bj-search-loganalysis01:~/habo/etl/python/resources]$ cd ~/zengsheng/
+[rd@al-bj-search-loganalysis01:~/zengsheng]$ ls
+baizhan_statistic.py  db.properties  finaltest.py  logtest.txt  SequenceNumber.py  test.py
+DBFactory.py          DBUtil.py      log1.txt      log.txt      spiderlog.txt      zhanqun_statistic.py
+[rd@al-bj-search-loganalysis01:~/zengsheng]$ ll
+total 289444
+-rw-rw-r-- 1 rd rd      1329 Jun 23 12:36 baizhan_statistic.py
+-rw-rw-r-- 1 rd rd      2175 Jun 23 12:38 DBFactory.py
+-rw-r--r-- 1 rd rd      1448 Jun 23 12:38 db.properties
+-rw-rw-r-- 1 rd rd      8283 Jun 23 12:38 DBUtil.py
+-rw-rw-r-- 1 rd rd      5337 Jun 22 18:27 finaltest.py
+-rw-rw-r-- 1 rd rd       281 Jun 21 17:48 log1.txt
+-rw-rw-r-- 1 rd rd 296033369 Jun 22 15:47 logtest.txt
+-rw-rw-r-- 1 rd rd      2584 Jun 21 17:23 log.txt
+-rw-rw-r-- 1 rd rd      3173 Jun 23 12:37 SequenceNumber.py
+-rw-rw-r-- 1 rd rd      3579 Jun 22 17:18 spiderlog.txt
+-rw-rw-r-- 1 rd rd      2011 Jun 22 15:46 test.py
+-rw-rw-r-- 1 rd rd      6544 Jun 23 12:36 zhanqun_statistic.py
+[rd@al-bj-search-loganalysis01:~/zengsheng]$ pwd
+/apps/home/rd/zengsheng
+[rd@al-bj-search-loganalysis01:~/zengsheng]$ ll -h
+total 283M
+-rw-rw-r-- 1 rd rd 1.3K Jun 23 12:36 baizhan_statistic.py
+-rw-rw-r-- 1 rd rd 2.2K Jun 23 12:38 DBFactory.py
+-rw-r--r-- 1 rd rd 1.5K Jun 23 12:38 db.properties
+-rw-rw-r-- 1 rd rd 8.1K Jun 23 12:38 DBUtil.py
+-rw-rw-r-- 1 rd rd 5.3K Jun 22 18:27 finaltest.py
+-rw-rw-r-- 1 rd rd  281 Jun 21 17:48 log1.txt
+-rw-rw-r-- 1 rd rd 283M Jun 22 15:47 logtest.txt
+-rw-rw-r-- 1 rd rd 2.6K Jun 21 17:23 log.txt
+-rw-rw-r-- 1 rd rd 3.1K Jun 23 12:37 SequenceNumber.py
+-rw-rw-r-- 1 rd rd 3.5K Jun 22 17:18 spiderlog.txt
+-rw-rw-r-- 1 rd rd 2.0K Jun 22 15:46 test.py
+-rw-rw-r-- 1 rd rd 6.4K Jun 23 12:36 zhanqun_statistic.py
+[rd@al-bj-search-loganalysis01:~/zengsheng]$ vim DBFactory.py
+[rd@al-bj-search-loganalysis01:~/zengsheng]$ vim db.properties

@@ -1,0 +1,387 @@
+Last login: Tue Jun 21 11:55:50 on ttys002
+➜  src ssh -i ~/Downloads/zengsheng.pem zengsheng@login.baijiahulian.com
+The authenticity of host 'login.baijiahulian.com (123.56.6.50)' can't be established.
+RSA key fingerprint is SHA256:ECu4oTAUxdIjG9vEshu+9k9YB44QyLlNHV7UlRDLOVQ.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'login.baijiahulian.com,123.56.6.50' (RSA) to the list of known hosts.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Permissions 0644 for '/Users/bjhl/Downloads/zengsheng.pem' are too open.
+It is required that your private key files are NOT accessible by others.
+This private key will be ignored.
+Load key "/Users/bjhl/Downloads/zengsheng.pem": bad permissions
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
+➜  src cd ~/Downloads 
+➜  Downloads ll zengsheng.pem 
+-rw-r--r--@ 1 bjhl  staff   1.7K  6 21 16:05 zengsheng.pem
+➜  Downloads ll
+total 2425056
+-rw-r--r--@   1 bjhl  staff   7.6M  6 16 09:03 1Sublime_Text.1395998182.dmg
+-rw-r--r--@   1 bjhl  staff    22M  6 15 13:13 1python-3.4.0.1395998608.dmg
+-rw-r--r--@   1 bjhl  staff   633K  6 17 09:16 2个方向的相关内容介绍-wjj.docx
+drwxr-xr-x@   3 bjhl  staff   102B  2 16 14:31 Eclipse Installer.app
+drwxr-xr-x@  29 bjhl  staff   986B  6 17 10:25 MySQL-python-1.2.3c1
+-rw-r--r--@   1 bjhl  staff    88K  6 17 10:16 MySQL-python-1.2.3c1.tar.gz
+drwxr-xr-x@  26 bjhl  staff   884B  6 20 17:26 MySQL-python-1.2.5
+-rw-r--r--@   1 bjhl  staff   106K  6 20 17:25 MySQL-python-1.2.5.zip
+drwx------@   4 bjhl  staff   136B  6 17 12:45 Re%3a_求职类url分析
+drwxr-xr-x@   3 bjhl  staff   102B 10  3  2013 The Unarchiver.app
+-rw-r--r--@   1 bjhl  staff   5.5M  6 15 16:59 TheUnarchiver3.11.1.zip
+-rw-r--r--@   1 bjhl  staff   362K  6 20 18:50 chromein.com_ext_11893 (1).crx
+-rw-r--r--@   1 bjhl  staff   362K  6 20 18:50 chromein.com_ext_11893.crx
+drwxr-xr-x    5 bjhl  staff   170B  6 20 17:31 data
+-rw-r--r--@   1 bjhl  staff   257B  6 20 17:20 demo.json
+drwxr-xr-x@  15 bjhl  staff   510B  6 15 22:32 eclipse
+-rw-r--r--@   1 bjhl  staff   211M  6 15 18:22 eclipse-jee-indigo-SR2-macosx-cocoa-x86_64.tar.gz
+-rw-r--r--@   1 bjhl  staff   227M  6 15 12:43 jdk_8u91_macosx_x64.1461208177.dmg
+-rw-r--r--@   1 bjhl  staff   334M  6 15 13:49 mysql-5.7.13-osx10.11-x86_64.dmg
+drwxr-xr-x@  17 bjhl  staff   578B  6 20 17:30 mysql-connector-python-2.1.1
+-rw-r--r--@   1 bjhl  staff   255K  6 20 17:29 mysql-connector-python-2.1.1.tar.gz
+-rw-r--r--@   1 bjhl  staff    87M  6 17 10:15 mysql-workbench-community-6.3.7-osx-x86_64.dmg
+drwxr-xr-x@  15 bjhl  staff   510B  6 20 14:20 nginx-1.8.1
+-rw-r--r--@   1 bjhl  staff   814K  6 20 13:03 nginx-1.8.1.tar.gz
+-rw-------    1 bjhl  staff   8.0M  6 21 16:07 nohup.out
+drwxr-xr-x@  61 bjhl  staff   2.0K  6 20 13:38 openssl-1.0.2g
+-rw-r--r--@   1 bjhl  staff   5.0M  6 20 13:35 openssl-1.0.2g.tar.gz
+drwxr-xr-x@ 160 bjhl  staff   5.3K  6 20 14:26 pcre-8.39
+-rw-r--r--@   1 bjhl  staff   2.0M  6 20 13:13 pcre-8.39.tar.gz
+-rw-r--r--@   1 bjhl  staff    16M  6 20 09:18 phantomjs-2.1.1-macosx.zip
+-rw-r--r--@   1 bjhl  staff   246M  6 16 09:35 pycharm-professional-2016.1.4.dmg
+drwxr-xr-x@  19 bjhl  staff   646B  6 14 13:21 pyspider-master
+-rw-r--r--@   1 bjhl  staff   2.2M  6 16 18:40 pyspider-master.zip
+drwxr-xr-x    6 bjhl  staff   204B  6 15 18:38 python程序
+drwxr-xr-x@  20 bjhl  staff   680B  5  6 15:11 redis-3.2.0
+-rw-r--r--@   1 bjhl  staff   372B  6 20 17:20 start.sh
+drwxr-xr-x    2 bjhl  staff    68B  6 16 19:09 test
+-rw-r--r--@   1 bjhl  staff   1.7K  6 21 16:05 zengsheng.pem
+-rw-r--r--@   1 bjhl  staff   7.7M  6 17 09:16 与pose learning相关的论文.rar
+drwxr-xr-x@   4 bjhl  staff   136B  6 14 14:36 批量授权
+➜  Downloads ll zengsheng.pem 
+-rw-r--r--@ 1 bjhl  staff   1.7K  6 21 16:05 zengsheng.pem
+➜  Downloads chmod 5 zengsheng.pem 
+➜  Downloads ll zengsheng.pem 
+-------r-x  1 bjhl  staff   1.7K  6 21 16:05 zengsheng.pem
+➜  Downloads chmod 300 zengsheng.pem 
+➜  Downloads ll zengsheng.pem 
+--wx------  1 bjhl  staff   1.7K  6 21 16:05 zengsheng.pem
+➜  Downloads chmod 500 zengsheng.pem
+➜  Downloads ll zengsheng.pem 
+-r-x------@ 1 bjhl  staff   1.7K  6 21 16:05 zengsheng.pem
+➜  Downloads ll zengsheng.pem
+➜  Downloads chmod 600 zengsheng.pem 
+➜  Downloads ll
+total 2425056
+-rw-r--r--@   1 bjhl  staff   7.6M  6 16 09:03 1Sublime_Text.1395998182.dmg
+-rw-r--r--@   1 bjhl  staff    22M  6 15 13:13 1python-3.4.0.1395998608.dmg
+-rw-r--r--@   1 bjhl  staff   633K  6 17 09:16 2个方向的相关内容介绍-wjj.docx
+drwxr-xr-x@   3 bjhl  staff   102B  2 16 14:31 Eclipse Installer.app
+drwxr-xr-x@  29 bjhl  staff   986B  6 17 10:25 MySQL-python-1.2.3c1
+-rw-r--r--@   1 bjhl  staff    88K  6 17 10:16 MySQL-python-1.2.3c1.tar.gz
+drwxr-xr-x@  26 bjhl  staff   884B  6 20 17:26 MySQL-python-1.2.5
+-rw-r--r--@   1 bjhl  staff   106K  6 20 17:25 MySQL-python-1.2.5.zip
+drwx------@   4 bjhl  staff   136B  6 17 12:45 Re%3a_求职类url分析
+drwxr-xr-x@   3 bjhl  staff   102B 10  3  2013 The Unarchiver.app
+-rw-r--r--@   1 bjhl  staff   5.5M  6 15 16:59 TheUnarchiver3.11.1.zip
+-rw-r--r--@   1 bjhl  staff   362K  6 20 18:50 chromein.com_ext_11893 (1).crx
+-rw-r--r--@   1 bjhl  staff   362K  6 20 18:50 chromein.com_ext_11893.crx
+drwxr-xr-x    5 bjhl  staff   170B  6 20 17:31 data
+-rw-r--r--@   1 bjhl  staff   257B  6 20 17:20 demo.json
+drwxr-xr-x@  15 bjhl  staff   510B  6 15 22:32 eclipse
+-rw-r--r--@   1 bjhl  staff   211M  6 15 18:22 eclipse-jee-indigo-SR2-macosx-cocoa-x86_64.tar.gz
+-rw-r--r--@   1 bjhl  staff   227M  6 15 12:43 jdk_8u91_macosx_x64.1461208177.dmg
+-rw-r--r--@   1 bjhl  staff   334M  6 15 13:49 mysql-5.7.13-osx10.11-x86_64.dmg
+drwxr-xr-x@  17 bjhl  staff   578B  6 20 17:30 mysql-connector-python-2.1.1
+-rw-r--r--@   1 bjhl  staff   255K  6 20 17:29 mysql-connector-python-2.1.1.tar.gz
+-rw-r--r--@   1 bjhl  staff    87M  6 17 10:15 mysql-workbench-community-6.3.7-osx-x86_64.dmg
+drwxr-xr-x@  15 bjhl  staff   510B  6 20 14:20 nginx-1.8.1
+-rw-r--r--@   1 bjhl  staff   814K  6 20 13:03 nginx-1.8.1.tar.gz
+-rw-------    1 bjhl  staff   8.0M  6 21 16:09 nohup.out
+drwxr-xr-x@  61 bjhl  staff   2.0K  6 20 13:38 openssl-1.0.2g
+-rw-r--r--@   1 bjhl  staff   5.0M  6 20 13:35 openssl-1.0.2g.tar.gz
+drwxr-xr-x@ 160 bjhl  staff   5.3K  6 20 14:26 pcre-8.39
+-rw-r--r--@   1 bjhl  staff   2.0M  6 20 13:13 pcre-8.39.tar.gz
+-rw-r--r--@   1 bjhl  staff    16M  6 20 09:18 phantomjs-2.1.1-macosx.zip
+-rw-r--r--@   1 bjhl  staff   246M  6 16 09:35 pycharm-professional-2016.1.4.dmg
+drwxr-xr-x@  19 bjhl  staff   646B  6 14 13:21 pyspider-master
+-rw-r--r--@   1 bjhl  staff   2.2M  6 16 18:40 pyspider-master.zip
+drwxr-xr-x    6 bjhl  staff   204B  6 15 18:38 python程序
+drwxr-xr-x@  20 bjhl  staff   680B  5  6 15:11 redis-3.2.0
+-rw-r--r--@   1 bjhl  staff   372B  6 20 17:20 start.sh
+drwxr-xr-x    2 bjhl  staff    68B  6 16 19:09 test
+-rw-------@   1 bjhl  staff   1.7K  6 21 16:05 zengsheng.pem
+-rw-r--r--@   1 bjhl  staff   7.7M  6 17 09:16 与pose learning相关的论文.rar
+drwxr-xr-x@   4 bjhl  staff   136B  6 14 14:36 批量授权
+➜  Downloads ll zengsheng.pem 
+-rw-------@ 1 bjhl  staff   1.7K  6 21 16:05 zengsheng.pem
+➜  Downloads ssh -i ~/Downloads/zengsheng.pem zengsheng@login.baijiahulian.com
+Saving password to keychain failed
+Saving password to keychain failed
+Saving password to keychain failed
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
+➜  Downloads ssh -i ~/Downloads/zengsheng.pem zengsheng@login.baijiahulian.com
+Saving password to keychain failed
+Saving password to keychain failed
+Saving password to keychain failed
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
+➜  Downloads ssh -i ~/Downloads/zengsheng.pem zengsheng@login.baijiahulian.com
+➜  Downloads ekbb0kuPXpI7ZnoS
+➜  Downloads ssh -i ~/Downloads/zengsheng.pem zengsheng@login.baijiahulian.com
+Saving password to keychain failed
+Saving password to keychain failed
+Identity added: /Users/bjhl/Downloads/zengsheng.pem ((null))
+
+Welcome to aliyun Elastic Compute Service!
+
+
+###    欢迎使用百家互联堡垒机系统   ### 
+
+        1) 输入 ID 直接登录 或 输入部分 IP,主机名,备注 进行搜索登录(如果唯一).
+        2) 输入 / + IP, 主机名 or 备注 搜索. 如: /ip
+        3) 输入 P/p 显示您有权限的主机.
+        4) 输入 G/g 显示您有权限的主机组.
+        5) 输入 G/g + 组ID 显示该组下主机. 如: g1
+        6) 输入 E/e 批量执行命令.
+        7) 输入 U/u 批量上传文件.
+        8) 输入 D/d 批量下载文件.
+        9) 输入 H/h 帮助.
+        0) 输入 Q/q 退出.
+
+Opt or ID>: p
+[ID ] 主机名    IP               端口  系统用户  备注
+[0  ] al-bj-search-index01 172.16.1.5       22     ['rd']      
+[1  ] al-bj-search-search01 172.16.1.6       22     ['rd']      
+[2  ] al-bj-search-loganalysis01 172.16.1.10      22     ['rd']      
+[3  ] al-bj-search-find01 172.16.1.18      22     ['rd']      None
+[4  ] al-bj-search-find02 172.16.1.19      22     ['rd']      None
+[5  ] al-bj-search-cron 172.16.1.35      22     ['rd']      None
+[6  ] al-bj-search-bdgbeta 172.16.1.36      22     ['rd']      
+[7  ] al-bj-search-match01 172.16.1.39      22     ['rd']      None
+[8  ] al-bj-search-match02 172.16.1.40      22     ['rd']      None
+[9  ] al-bj-search-zhanqun_index 172.16.1.46      22     ['rd']      
+[10 ] al-bj-search-zhanqun_search01 172.16.1.47      22     ['rd']      
+[11 ] al-bj-search-zhanqun_search02 172.16.1.48      22     ['rd']      
+[12 ] al-bj-search-zhanqun_search03 172.16.1.49      22     ['rd']      
+[13 ] al-bj-search-zhanqun_search04 172.16.1.50      22     ['rd']      
+[14 ] al-bj-web-beta  172.16.2.3       22     ['rd']      
+[15 ] al-bj-yunying-ad01 172.16.3.3       22     ['rd']      
+[16 ] al-bj-yunying-ad02 172.16.3.17      22     ['rd']      
+[17 ] al-bj-crawler-crawler02 172.16.10.1      22     ['rd']      
+[18 ] of-bj-search-test01 172.21.134.7     22     ['rd']      
+
+Opt or ID>: 2
+Only match Host:  al-bj-search-loganalysis01 
+Connecting al-bj-search-loganalysis01 ...
+Last login: Tue Jun 21 15:47:52 2016 from 172.16.5.26
+
+Welcome to aliyun Elastic Compute Service!
+
+[rd@al-bj-search-loganalysis01:~]$ ls
+10w_active_user_id
+20160601_20160630047427db-5ea6-40fd-abf2-2138cd8bd70f_channel_active.filter.bloom
+20160601_20160630460fa267-ddac-4302-9b26-9e877df77f48_channel_active.filter.bloom
+20160601_20160630b5b81eaf-9ea4-4d0f-8c8d-403ae97b4bf2_channel_active.filter.bloom
+20160601_20160630be3b829b-6203-499c-b1f8-f49310fec525_channel_active.filter.bloom
+20160613_201606199e544f11-be51-401b-9bb3-e818a5cdda2a_channel_active.filter.bloom
+20160613_20160619a6915274-2651-4217-a773-4da1df86992a_channel_active.filter.bloom
+20160613_20160619f3d05764-ae3e-4dae-ab2e-25e5e8595573_channel_active.filter.bloom
+20160617_20160617de264727-d012-42cd-bf2c-9897d62a94fc_channel_active.filter.bloom
+20160618_2016061815bf5067-b202-4c4c-b242-ca3ba95f6e81_channel_active.filter.bloom
+20160619_20160619ea0eeec3-f602-4a37-a7e2-3f81a17b6e9a_channel_active.filter.bloom
+20160620_20160620ef112ae3-5bb8-4637-a611-9d95edb96032_channel_active.filter.bloom
+20160620_20160626dfb4b071-5c72-4631-8623-3443fed025e0_channel_active.filter.bloom
+567633bebd3a16-82149195-4749
+activity_partner_idfa.java
+adcreative.txt
+addagentrol.sql
+addagentSql.sql
+adgroup.txt
+advertise
+agent_data_check.sh
+app_click.par
+back_cps_ext_channel.txt
+backup_cps_ext_channel
+backup_cps_ext_channel.sql
+celerybeat-schedule
+changming
+channel_ext_info.sql
+channel_sql.sql
+class_id
+copyExtChannel.sh
+corpora_v2.java
+cps_ext_channel.txt
+cps_order_info_bak.sql
+cps_order_info.sql
+cron
+cron2
+crontab
+crontab.txt
+data
+dirtyData.awk
+err
+error
+etl-data
+filter.bloom
+formatter_app_event
+formatter_page_access
+getQuery.awk
+gtb
+habo
+habo_order_data.java
+habo_sku_teacher_base_info.java
+hadoop-2.6.0.tar.gz
+hexing
+hive-aux-1.0-SNAPSHOT-jar-with-dependencies.jar
+hive-site.xml
+idfa
+id_rsa_pycron
+id_rsa_pycron.pub
+__init__.pyc
+input1.txt
+input2.txt
+input.txt
+insert_cps_ext_agent.sql
+invitation_bak.sql
+ip.tar.gz
+jinxin
+kafka
+kafka_2.11-0.9.0.0
+lib
+lichuang
+log
+luoruiyang
+metastore_db
+monitor3.py
+mydata4vipweek2.dat
+nginx_log_parse.sh
+nohup.out
+org_info.java
+org_student_advisory.java
+panama-charge
+paopao
+part-m-00001
+pig-0.15.0
+pig-0.15.0.tar.gz
+pODv
+printSql1
+printSql1.sh
+printSql2.sh
+pu
+pv
+pv_statistic.py
+pyenv
+python-nlpir
+QueryResult.java
+recommendation-engine
+recsys
+res
+result.txt
+schema_class.java
+scripts
+search
+search-analysis
+search_online_analysis
+serialize.pkl
+serializeyy.pkl
+shenma_sitemap
+shiruiru
+spider-data
+spider-pic
+sqoop-1.4.6
+sqoop-1.4.6.bin__hadoop-2.0.4-alpha.tar.gz
+sqoop.sh
+sqoop_task
+studentExchange
+sunkang
+teacher.java
+temp
+temp1
+temp.sql
+temp.txt
+test.dat
+test.py
+tmp
+tmp.15120378988
+tmp.2410801
+tmp.t
+tmp.txt
+tt
+updatecps_ext_agent.sql
+update_cps_sql.sql
+user_number.txt
+user_register_log.java
+wanghongyang
+wanglei
+wanglin
+wangqingfeng
+whole_agent.sql
+wujun
+www
+xushaonan
+xuzhihao
+xuzhiming
+yanbin
+yangxiaoyun
+yuebin
+[rd@al-bj-search-loganalysis01:~]$ cd /apps/log/nginx/www.genshuixue.com/
+[rd@al-bj-search-loganalysis01:/apps/log/nginx/www.genshuixue.com]$ ls
+20160521  20160526  20160531  20160605  20160610  20160615  20160620
+20160522  20160527  20160601  20160606  20160611  20160616  20160621
+20160523  20160528  20160602  20160607  20160612  20160617  baidu_spider
+20160524  20160529  20160603  20160608  20160613  20160618  outside.log
+20160525  20160530  20160604  20160609  20160614  20160619  outside.sh
+[rd@al-bj-search-loganalysis01:/apps/log/nginx/www.genshuixue.com]$ cd 20160620/
+[rd@al-bj-search-loganalysis01:/apps/log/nginx/www.genshuixue.com/20160620]$ ls
+00  02  04  06  08  10  12  14  16  18  20  22
+01  03  05  07  09  11  13  15  17  19  21  23
+[rd@al-bj-search-loganalysis01:/apps/log/nginx/www.genshuixue.com/20160620]$ ll
+total 96
+drwxrwxr-x 2 rd rd 4096 Jun 20 01:00 00
+drwxrwxr-x 2 rd rd 4096 Jun 20 02:00 01
+drwxrwxr-x 2 rd rd 4096 Jun 20 03:00 02
+drwxrwxr-x 2 rd rd 4096 Jun 20 04:00 03
+drwxrwxr-x 2 rd rd 4096 Jun 20 05:00 04
+drwxrwxr-x 2 rd rd 4096 Jun 20 06:00 05
+drwxrwxr-x 2 rd rd 4096 Jun 20 07:00 06
+drwxrwxr-x 2 rd rd 4096 Jun 20 08:00 07
+drwxrwxr-x 2 rd rd 4096 Jun 20 09:00 08
+drwxrwxr-x 2 rd rd 4096 Jun 20 10:00 09
+drwxrwxr-x 2 rd rd 4096 Jun 20 11:00 10
+drwxrwxr-x 2 rd rd 4096 Jun 20 12:00 11
+drwxrwxr-x 2 rd rd 4096 Jun 20 13:00 12
+drwxrwxr-x 2 rd rd 4096 Jun 20 14:00 13
+drwxrwxr-x 2 rd rd 4096 Jun 20 15:00 14
+drwxrwxr-x 2 rd rd 4096 Jun 20 16:00 15
+drwxrwxr-x 2 rd rd 4096 Jun 20 17:00 16
+drwxrwxr-x 2 rd rd 4096 Jun 20 18:00 17
+drwxrwxr-x 2 rd rd 4096 Jun 20 19:00 18
+drwxrwxr-x 2 rd rd 4096 Jun 20 20:00 19
+drwxrwxr-x 2 rd rd 4096 Jun 20 21:00 20
+drwxrwxr-x 2 rd rd 4096 Jun 20 22:00 21
+drwxrwxr-x 2 rd rd 4096 Jun 20 23:00 22
+drwxrwxr-x 2 rd rd 4096 Jun 21 00:00 23
+[rd@al-bj-search-loganalysis01:/apps/log/nginx/www.genshuixue.com/20160620]$ cd 00/
+[rd@al-bj-search-loganalysis01:/apps/log/nginx/www.genshuixue.com/20160620/00]$ ls
+www.genshuixue.com-al-bj-web-www01-20160620000001.access.log
+www.genshuixue.com-al-bj-web-www09-20160620000001.access.log
+www.genshuixue.com-al-bj-web-www10-20160620000001.access.log
+www.genshuixue.com-al-bj-web-www11-20160620000001.access.log
+www.genshuixue.com-al-bj-web-www12-20160620000001.access.log
+www.genshuixue.com-al-bj-web-www13-20160620000001.access.log
+www.genshuixue.com-al-bj-web-www14-20160620000001.access.log
+www.genshuixue.com-al-bj-web-www15-20160620000001.access.log
+www.genshuixue.com-al-bj-web-www16-20160620000001.access.log
+[rd@al-bj-search-loganalysis01:/apps/log/nginx/www.genshuixue.com/20160620/00]$ ll
+total 82368
+-rw-r--r-- 1 rd rd  1373094 Jun 20 01:00 www.genshuixue.com-al-bj-web-www01-20160620000001.access.log
+-rw-r--r-- 1 rd rd 10390580 Jun 20 01:00 www.genshuixue.com-al-bj-web-www09-20160620000001.access.log
+-rw-r--r-- 1 rd rd 10372700 Jun 20 01:00 www.genshuixue.com-al-bj-web-www10-20160620000001.access.log
+-rw-r--r-- 1 rd rd 10476663 Jun 20 01:00 www.genshuixue.com-al-bj-web-www11-20160620000001.access.log
+-rw-r--r-- 1 rd rd 10340430 Jun 20 01:00 www.genshuixue.com-al-bj-web-www12-20160620000001.access.log
+-rw-r--r-- 1 rd rd 10354305 Jun 20 01:00 www.genshuixue.com-al-bj-web-www13-20160620000001.access.log
+-rw-r--r-- 1 rd rd 10316175 Jun 20 01:00 www.genshuixue.com-al-bj-web-www14-20160620000001.access.log
+-rw-r--r-- 1 rd rd 10332796 Jun 20 01:00 www.genshuixue.com-al-bj-web-www15-20160620000001.access.log
+-rw-r--r-- 1 rd rd 10236679 Jun 20 01:00 www.genshuixue.com-al-bj-web-www16-20160620000001.access.log
+[rd@al-bj-search-loganalysis01:/apps/log/nginx/www.genshuixue.com/20160620/00]$ l
+-bash: l: command not found
+[rd@al-bj-search-loganalysis01:/apps/log/nginx/www.genshuixue.com/20160620/00]$ 

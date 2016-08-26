@@ -1,0 +1,14 @@
+本地站群配置
+git clone git@git.baijiahulian.com:pandora/luna.git
+ssh -f worker@172.21.134.7 -L 6379:52a34c024547489a.m.cnbja.kvstore.aliyuncs.com:6379 -N
+ssh -f worker@172.21.134.7 -L 3307:172.16.2.76:3306 -N
+gunicorn --config=config.py zhanqun.wsgi:application config.py
+
+
+
+git checkout common/conf/db.conf common/conf/redis.conf config.py
+git pull
+git status
+
+
+- 曾胜 zengsheng <zengsheng@baijiahulian.com>

@@ -1,0 +1,58 @@
+关闭所有程序
+kill -9 `ps -ef | grep Google | awk '{print $NF-1}'`
+
+周期性运行某个脚本
+crontab -e
+
+shell脚本+日志输出
+cd /apps/home/rd/hexing/pyspider-master && python monitor_spider.py >> monitor.log 2>&1
+
+安装cheat
+cheat
+
+查看环境变量
+env
+
+ls -alh | sort -k5,5 -h
+
+ls -R
+
+pushd	
+
+autojump
+
+toach -d
+
+删除前确认
+alias rm = 'rm -i'
+
+df -h
+
+du -d 1 -h
+
+chown
+
+chmod
+
+chgrp
+
+ag
+
+awk -f re.awk test.txt
+
+#!/usr/bin/env awk -f
+
+sed	-n '3p' a.txt
+seq 1 10 | sed	-n '1~2d' a.txt
+sed	-n '1,$d' a.txt
+
+正则表达式标记
+-r
+
+git diff a.txt
+
+sort 
+
+mac本机的key
+cd .ssh  
+cat id_rsa.pub

@@ -1,0 +1,66 @@
+经典文件相关操作
+
+awk命令
+cat  zhanqun_id_infos| awk -F "\x01" '{if($3=="鼓") print $NF}' | more
+
+查找大于100M的文件
+find . -type f -size +100M
+
+查看文件大小
+ du -sh jzgc_zhengbao
+
+查看当前目录下各文件所占大小
+du -h
+
+文件字符替换
+ :%s/原字符/现字符/g
+
+查找匹配正则表达式的文本的字段
+find ciku.txt -type f | xargs grep "^[y-z]"
+
+查找匹配正则表达式的文本的名称
+find . -type f | xargs grep -l "xy"
+
+查找目录下的所有文件中是否含有某个字符串,并且只打印出文件名
+find .|xargs grep -ri "IBM" -l 
+
+查找某个文件
+cat 文件名 | grep 字段
+
+cat 文件名 | grep 字段或正则表达式 | wc -l | head -n 1
+
+find ./ -name "*streaming*"
+
+批量改名
+rename .res.res .res *.res.res
+rename .res.copy '' *.res.copy
+
+linux标准输入，并排序
+echo "foo foo quux labs foo bar zoo zoo hying" | python mapper.py | sort -k 1,1 | python reducer.py
+
+vi ~/.bashrc  # 打开环境变量配置文件
+# 在里面写入streaming路径
+export STREAM=$HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-*.jar
+
+
+两个文档的差集
+grep -F -v -f b.txt a.txt | sort | uniq > c.txt
+
+追加文档
+cat xpage_urls.log >> xpage_urls1.log
+
+检查python语法错误
+python -c "import py_compile; py_compile.compile(r'filter_extra.py')"
+
+查看中间几行
+sed -n '1000,4000p' else_filter.txt
+cat filename | tail -n +1000 | head -n 3000
+
+重复的行只保留一行
+sort a.txt | uniq > aa.txt
+
+删除前几行
+sed -i '1,nd' filename
+
+排序
+sort else_filter.txt -o else_filter.txt

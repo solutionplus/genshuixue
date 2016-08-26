@@ -1,0 +1,12 @@
+查看某个程序占用端口并关闭端口
+➜  Downloads ps -ef | grep pyspider
+➜  Downloads kill -9 1893 1895 1896 3075 3077 3153 3155 3643 3645 4563 4565 4566 4567
+
+
+
+查看某个端口被哪个程序占用
+lsof -i:6379
+
+后台启动
+nohup redis-server&
+
