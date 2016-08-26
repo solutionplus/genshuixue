@@ -1,0 +1,6 @@
+logstash操作
+普通文件导入到es
+./bin/logstash agent -f file.conf
+
+redis导入es
+./bin/logstash agent -f redis.conf
