@@ -8,6 +8,9 @@ cat  zhanqun_id_infos| awk -F "\x01" '{if($3=="鼓") print $NF}' | more
 查找大于100M的文件
 find . -type f -size +100M
 
+查看查找到的文件的大小
+du -sh `find . -type f -size +10M`
+
 查看文件大小
  du -sh jzgc_zhengbao
 
