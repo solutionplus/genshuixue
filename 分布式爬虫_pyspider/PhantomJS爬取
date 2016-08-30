@@ -1,0 +1,1 @@
+self.crawl('http://bbs.csdn.net'+url+'/closed',headers=self.crawl_config['headers'],proxy=self.crawl_config['proxy'], fetch_type='js',callback=self.index_page)
