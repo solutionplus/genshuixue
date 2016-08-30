@@ -1,3 +1,20 @@
+取出文件权限的@符号
+sudo xattr -c distinguished.vim
+
+chmod -N distinguished.vim
+
+sudo chgrp wheel(用户组) distinguished.vim
+
+sudo chown root（用户） distinguished.vim
+
+chmod -R 755 distinguished.vim
+
+chmod 777 distinguished.vim
+
+chmod +x distinguished.vim
+
+chmod g+x distinguished.vim
+
 配置环境变量并生效
 vim /etc/profile
 source /etc/profile

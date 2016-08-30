@@ -29,6 +29,11 @@ find . -type f | xargs grep -l "xy"
 查找目录下的所有文件中是否含有某个字符串,并且只打印出文件名
 find .|xargs grep -ri "IBM" -l 
 
+查找具有某个内容字符串的文件名
+-r ：递归查找子目录
+-l ：只显示文件名
+grep -rl "python" .
+
 查找某个文件
 cat 文件名 | grep 字段
 
@@ -66,6 +71,9 @@ sort a.txt | uniq > aa.txt
 
 删除前几行
 sed -i '1,nd' filename
+
+删除后面的行
+把光标移动到第N行，一般模式下 dG,删除从光标所在到最后一行的所有数据。
 
 排序
 sort else_filter.txt -o else_filter.txt
