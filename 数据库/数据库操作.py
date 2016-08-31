@@ -20,3 +20,6 @@ mysqldump -h127.0.0.1 -uzhanqun -pwdlPD40xjO5  -P3305 zhanqun tb_cidian --where=
 show global variables;
 
 set names utf8;
+
+
+UPDATE zhanqun.shiren SET evaluation = replace(evaluation,'<div class="open-tag-collapse" id="open-tag-collapse"/>','') where evaluation like '%<div class="open-tag-collapse" id="open-tag-collapse"/>%' 

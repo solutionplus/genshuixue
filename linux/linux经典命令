@@ -1,6 +1,7 @@
 取出文件权限的@符号
 sudo xattr -c distinguished.vim
 
+权限操作
 chmod -N distinguished.vim
 
 sudo chgrp wheel(用户组) distinguished.vim
