@@ -1,0 +1,5 @@
+#站群增量更新 - yangxiaoyun
+#50 9 * * * source ~/.bashrc;cd /apps/home/rd/yangxiaoyun/hadoop/schema/renew_inc/script && sh crontab.sh >> error.log 2>&1
+#25 9 * * * source ~/.bashrc;cd /apps/home/rd/yangxiaoyun/hadoop/schema/ItlgCompute && sh crontab.sh >> error.log 2>&1
+25 9 * * * source ~/.bashrc;cd /apps3/rd/yangxiaoyun/zhanqun/online/ItlgCompute && sh crontab.sh >> error.log 2>&1
+#10 22 * * * source ~/.bashrc;cd /apps/home/rd/yangxiaoyun/hadoop/schema/renew_inc/script && sh crontab.sh >> error.log 2>&1
