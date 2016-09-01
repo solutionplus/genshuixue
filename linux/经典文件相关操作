@@ -12,7 +12,8 @@ find . -type f -size +100M
 du -sh `find . -type f -size +10M`
 
 查看文件大小
- du -sh jzgc_zhengbao
+du -sh jzgc_zhengbao
+ll -h 
 
 查看当前目录下各文件所占大小
 du -h
@@ -74,6 +75,11 @@ sed -i '1,nd' filename
 
 删除后面的行
 把光标移动到第N行，一般模式下 dG,删除从光标所在到最后一行的所有数据。
+
+删除查找到的行，在vim里操作
+:g/好声音/d
+在命令行操作
+sed -i -e '/好声音/d' else_zhongwen.txt
 
 排序
 sort else_filter.txt -o else_filter.txt

@@ -1,6 +1,0 @@
-{
-    "taskdb": "mysql+taskdb://root:root@127.0.0.1:3306/taskdb",
-    "projectdb": "mysql+projectdb://root:root@127.0.0.1:3306/projectdb",
-    "resultdb": "mysql+resultdb://root:root@127.0.01:3306/resultdb",
-    "message_queue":"redis://127.0.0.1:6379/1"
-}
