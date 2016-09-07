@@ -21,5 +21,8 @@ show global variables;
 
 set names utf8;
 
-
+复杂的更新
 UPDATE zhanqun.shiren SET evaluation = replace(evaluation,'<div class="open-tag-collapse" id="open-tag-collapse"/>','') where evaluation like '%<div class="open-tag-collapse" id="open-tag-collapse"/>%' 
+
+生成结构相同的表
+create table tb_new_query as select * from tb_query limit 0;
