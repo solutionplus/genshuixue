@@ -29,6 +29,8 @@ find . -type f | xargs grep -l "xy"
 
 查找目录下的所有文件中是否含有某个字符串,并且只打印出文件名
 find .|xargs grep -ri "IBM" -l 
+find -type f -name '*wenda*'|xargs grep -l '"class": 34'
+find *wenda*|xargs grep -l '"class": 34'
 
 查找具有某个内容字符串的文件名
 -r ：递归查找子目录
@@ -83,3 +85,6 @@ sed -i -e '/好声音/d' else_zhongwen.txt
 
 排序
 sort else_filter.txt -o else_filter.txt
+
+平均分割文档
+split -l 30000  wenda_baidu_new2 wenda_baidu_new
