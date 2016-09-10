@@ -39,9 +39,9 @@ grep -rl "python" .
 
 查找某个文件
 cat 文件名 | grep 字段
-
 cat 文件名 | grep 字段或正则表达式 | wc -l | head -n 1
 
+查找文件名中有streaming的文件，并打印出相对路径
 find ./ -name "*streaming*"
 
 批量改名
