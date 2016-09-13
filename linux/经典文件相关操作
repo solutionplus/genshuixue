@@ -88,3 +88,7 @@ sort else_filter.txt -o else_filter.txt
 
 平均分割文档
 split -l 30000  wenda_baidu_new2 wenda_baidu_new
+
+批量压缩和解压
+gzip wenda_baidu_new3a*
+gunzip 20160910*/wenda*

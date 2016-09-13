@@ -29,8 +29,11 @@ b、才是水平切分：拆分行
 这就是水平分割。
 
 4、不同引擎的优化
-myisam读的效果好，写的效率差，myisam锁是表锁，只有读读之间是并发的，
+myisam读的效果好（因为MyISAM是表锁，所以查询快），写的效率差，myisam锁是表锁，只有读读之间是并发的，
 innodb一般都是行锁，读写之间是可以并发的，支持事务，外键，行级锁
+读：MyISAM 默认会把索引读入内存，直接在内存中操作；InnoDB 则是 I/O 操作。（参考stackoverflow，具体url忘记了）
+写：MyISAM 是表锁；InnoDB 是行锁。在执行数据库写入的操作（insert,update,delete）的时候，mysiam表会锁表，而innodb表会锁行。通俗点说，就是你执行了一个update语句，那么mysiam表会将整个表都锁住，其他的insert和delete、update都会被拒之门外，等到这个update语句执行完成后才会被依次执行。
+
 
 
 
