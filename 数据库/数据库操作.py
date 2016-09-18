@@ -26,3 +26,19 @@ UPDATE zhanqun.shiren SET evaluation = replace(evaluation,'<div class="open-tag-
 
 生成结构相同的表
 create table tb_new_query as select * from tb_query limit 0;
+
+查询近30天的信息记录：
+SELECT count(1) FROM zhanqun.keyword_monitor_fuzzy where date_sub(curdate(), INTERVAL 30 DAY) <= date(`date`);
+SELECT count(1) FROM zhanqun.keyword_monitor_fuzzy  where to_days(now()) - to_days(`date`) <= 30;
+
+
+查询昨天的信息记录：
+SELECT count(1) FROM zhanqun.keyword_monitor_fuzzy  where to_days(now()) - to_days(`date`) <= 1;
+
+查询今天的信息记录：
+SELECT count(1) FROM zhanqun.keyword_monitor_fuzzy  where to_days(now()) - to_days(`date`) <= 0;
+SELECT count(1) FROM zhanqun.keyword_monitor_fuzzy  where to_days(`date`) = to_days(now());
+
+查询上个月的信息记录：
+SELECT count(1) FROM zhanqun.keyword_monitor_fuzzy  where (date_format(now() , '%Y%m') - date_format(`date`, '%Y%m')) =1;
+SELECT count(1) FROM zhanqun.keyword_monitor_fuzzy  where period_diff(date_format(now() , '%Y%m'),date_format(`date`, '%Y%m')) =1;
