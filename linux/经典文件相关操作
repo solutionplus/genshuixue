@@ -1,6 +1,7 @@
 经典文件相关操作
 删除某个文件以外的其他文件
 rm -rf `ll | grep -v 正则表达式`
+ll | grep -v 'inc'
 
 awk命令
 cat  zhanqun_id_infos| awk -F "\x01" '{if($3=="鼓") print $NF}' | more
