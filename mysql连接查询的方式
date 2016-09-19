@@ -1,0 +1,70 @@
+mysql联接查询的几种方式？
+一、内联结
+select * from java,mysql where java.name=mysql.name;
+SELECT * FROM java  JOIN mysql ON java.name=mysql.name;
+SELECT * FROM java INNER JOIN mysql ON java.name=mysql.name;
+SELECT * FROM java CROSS JOIN mysql ON java.name=mysql.name;
+SELECT * FROM java  STRAIGHT_JOIN  mysql ON java.name=mysql.name;
+这四个语句都是内联结，返回结果都一样
++------+------+
+| name | name |
++------+------+
+| blue | blue |
++------+------+
+
+table_reference条目中的每个逗号都看作相当于一个内部联合
+默认的JOIN都是INNER JOIN
+CROSS JOIN从语法上说与INNER JOIN等同
+STRAIGHT_JOIN与JOIN相同。除了有一点不一样，左表会在右表之前被读取。STRAIGH_JOIN可以被用于这样的情况，即联合优化符以错误的顺序排列表。
+内联结的语法如下:
+join_table:
+    table_reference [INNER | CROSS] JOIN table_factor [join_condition]
+  | table_reference STRAIGHT_JOIN table_factor
+  | table_reference STRAIGHT_JOIN table_factor ON condition
+
+二、外联结
+左联结
+SELECT * FROM java LEFT JOIN mysql ON java.name=mysql.name;
++-------+------+
+| name  | name |
++-------+------+
+| java1 | NULL |
+| java2 | NULL |
+| blue  | blue |
++-------+------+
+所以从上面结果看出，因为java表中的java1和java2记录的name没有在mysql表中有对应name，因此为空，但java 所有的列栏仍有java1和java2记录，mysql表所有列栏为NULL。而剩下的blue的那条记录就是java表和mysql表内连接的结果。
+
+如果对于在LEFT JOIN中的ON或USING部分中的右表没有匹配的记录，则所有列被设置为NULL的一个行被用于右表。如果一个表在其它表中没有对应部分，您可以使用这种方法在这种表中查找记录：
+SELECT * FROM java LEFT JOIN mysql ON java.name=mysql.name WHERE mysql.name IS NULL; 
+该sql找出在java的人，但是不在mysql里的人，这里明显是人员'java1'和'java2'符合要求。
+
+右联结
+SELECT * FROM java RIGHT JOIN mysql ON java.name=mysql.name;
+返回结果是
++------+--------+
+| name | name   |
++------+--------+
+| NULL | mysql1 |
+| NULL | mysql2 |
+| blue | blue   |
++------+--------+
+右联结和左联接结果类似，只是这次是mysql表保存所有的结果集。
+
+外联结的语法
+join_table:| table_reference LEFT [OUTER] JOIN table_reference join_condition
+  | table_reference NATURAL [LEFT [OUTER]] JOIN table_factor
+  | table_reference RIGHT [OUTER] JOIN table_reference join_condition
+  | table_reference NATURAL [RIGHT [OUTER]] JOIN table_factor
+
+
+三、USING(column_list)子句
+用于为一系列的列进行命名，这些列必须同时在两个表中存在
+SELECT java.*,mysql.* FROM java LEFT JOIN mysql USING (name); 
+结果返回
++-------+------+
+| name  | name |
++-------+------+
+| java1 | NULL |
+| java2 | NULL |
+| blue  | blue |
++-------+------+
