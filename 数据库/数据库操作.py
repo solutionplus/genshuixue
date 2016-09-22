@@ -42,3 +42,6 @@ SELECT count(1) FROM zhanqun.keyword_monitor_fuzzy  where to_days(`date`) = to_d
 查询上个月的信息记录：
 SELECT count(1) FROM zhanqun.keyword_monitor_fuzzy  where (date_format(now() , '%Y%m') - date_format(`date`, '%Y%m')) =1;
 SELECT count(1) FROM zhanqun.keyword_monitor_fuzzy  where period_diff(date_format(now() , '%Y%m'),date_format(`date`, '%Y%m')) =1;
+
+查询一个集群各个表当前数据量大小从高到低排名（以MB为单位）
+select table_schema, table_name, Concat(Round(data_length / ( 1024 * 1024 ), 2), 'MB') As MB, table_rows from information_schema.tables order by MB desc

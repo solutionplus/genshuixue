@@ -94,3 +94,6 @@ split -l 30000  wenda_baidu_new2 wenda_baidu_new
 批量压缩和解压
 gzip wenda_baidu_new3a*
 gunzip 20160910*/wenda*
+
+请写出统计9月6日19点至19点09分59秒的Baiduspider爬取的top10链接地址的shell命令 
+grep '06/Sep/2016:19:0.* +0800' /apps/log/dieout/2016-09-06/apps/log/nginx/www.genshuixue.com.access.log/* |grep Baiduspider | awk -F'^A'  '{print $6}' | sort -k 1 | uniq -c | sort –rnk 1 | head -10
