@@ -3,6 +3,9 @@
 rm -rf `ll | grep -v 正则表达式`
 ll | grep -v 'inc'
 
+远程复制文件
+scp rd@172.16.10.1:/apps/home/rd/zengsheng/jingyan2_gaosanwang .
+
 awk命令
 cat  zhanqun_id_infos| awk -F "\x01" '{if($3=="鼓") print $NF}' | more
 
