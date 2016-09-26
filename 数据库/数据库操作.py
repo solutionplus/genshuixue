@@ -19,7 +19,11 @@ mysqldump -h127.0.0.1 -uzhanqun -pwdlPD40xjO5  -P3305 zhanqun tb_cidian --where=
 权限问题
 show global variables;
 
+数据插入和显示编码
 set names utf8;
+
+按特定分隔符导出特定字段到特定文件
+select taskid, result into outfile '/apps/home/rd/zengsheng/gwyjingyan_zhonggong.res' fields terminated by '$$$$$' from gwyjingyan_zhonggong ;
 
 复杂的更新
 UPDATE zhanqun.shiren SET evaluation = replace(evaluation,'<div class="open-tag-collapse" id="open-tag-collapse"/>','') where evaluation like '%<div class="open-tag-collapse" id="open-tag-collapse"/>%' 
