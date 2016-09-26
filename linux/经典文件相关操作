@@ -75,7 +75,7 @@ cat filename | tail -n +1000 | head -n 3000
 sort a.txt | uniq > aa.txt
 
 删除前几行
-sed -i '1,nd' filename
+sed -i -e '1,nd' filename
 
 删除后面的行
 把光标移动到第N行，一般模式下 dG,删除从光标所在到最后一行的所有数据。
