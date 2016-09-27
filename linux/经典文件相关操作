@@ -3,6 +3,15 @@
 rm -rf `ll | grep -v 正则表达式`
 ll | grep -v 'inc'
 
+vim查找忽视大小写，在查找指令后加\c标志
+/\\u8003\\u7814\\u82F1\\u8bed\c
+
+vim注释
+:1,11s/^/#/g
+
+vim取消注释
+:1,11s/^#//g
+
 远程复制文件
 scp rd@172.16.10.1:/apps/home/rd/zengsheng/jingyan2_gaosanwang .
 

@@ -49,3 +49,6 @@ SELECT count(1) FROM zhanqun.keyword_monitor_fuzzy  where period_diff(date_forma
 
 查询一个集群各个表当前数据量大小从高到低排名（以MB为单位）
 select table_schema, table_name, Concat(Round(data_length / ( 1024 * 1024 ), 2), 'MB') As MB, table_rows from information_schema.tables order by MB desc
+
+复杂的查询语句
+select (case when (district like '%市' or district like '%区') then count(1)  when (district not like '%市' and  district not like '%区') then 0 end) as tal,city from `primary_school_info` where status=0 and (district like '%市' or district like '%区')  and city in ('北京','天津','上海','重庆','石家庄','郑州','武汉','长沙','南京','南昌','沈阳','长春','哈尔滨','西安','太原','济南','成都','西宁','合肥','海口','广州','贵阳','杭州','福州','台北','兰州','昆明','拉萨','银川','南宁','乌鲁木齐','呼和浩特','香港','澳门') group by city order by city
