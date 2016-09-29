@@ -3,6 +3,12 @@
 rm -rf `ll | grep -v 正则表达式`
 ll | grep -v 'inc'
 
+vim中的最小匹配（非贪婪）
+/a.\{-}b
+
+egrep中最小匹配（非贪婪）
+cat t.txt | egrep '^2016-09-29 09:28:35.098.*?MobileLoginFilter:66' 
+
 vim查找忽视大小写，在查找指令后加\c标志
 /\\u8003\\u7814\\u82F1\\u8bed\c
 
