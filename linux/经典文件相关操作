@@ -21,6 +21,12 @@ vim取消注释
 远程复制文件
 scp rd@172.16.10.1:/apps/home/rd/zengsheng/jingyan2_gaosanwang .
 
+复制文件夹
+cp -r 文件夹 目录
+
+打包
+zip -r 命名.zip 待打包文件夹
+
 awk命令
 cat  zhanqun_id_infos| awk -F "\x01" '{if($3=="鼓") print $NF}' | more
 
