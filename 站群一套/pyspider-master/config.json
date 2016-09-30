@@ -1,0 +1,10 @@
+{
+  "taskdb": "mysql+taskdb://root:123@127.0.0.1:3306/taskdb",
+  "projectdb": "mysql+projectdb://root:123@127.0.0.1:3306/projectdb",
+  "resultdb": "mysql+resultdb://root:123@127.0.0.1:3306/resultdb",
+  "message_queue": "redis://127.0.0.1:6379/1",
+  "webui":{
+    "host": "172.16.10.1",
+    "port": 5000
+  }
+}

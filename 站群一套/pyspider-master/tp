@@ -1,0 +1,1000 @@
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 tornado_fetcher:529] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/fetcher/tornado_fetcher.py", line 519, in queue_loop
+        task = self.inqueue.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 tornado_fetcher:529] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/fetcher/tornado_fetcher.py", line 519, in queue_loop
+        task = self.inqueue.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[E 160726 17:02:05 result_worker:63] MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/result/result_worker.py", line 53, in run
+        task, result = self.inqueue.get(timeout=1)
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 94, in get
+        return self.get_nowait()
+      File "/usr/lib/python2.6/site-packages/pyspider-0.3.8-py2.6.egg/pyspider/message_queue/redis_queue.py", line 82, in get_nowait
+        ret = self.redis.lpop(self.name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 1223, in lpop
+        return self.execute_command('LPOP', name)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 573, in execute_command
+        return self.parse_response(connection, command_name, **options)
+      File "/usr/lib/python2.6/site-packages/redis/client.py", line 585, in parse_response
+        response = connection.read_response()
+      File "/usr/lib/python2.6/site-packages/redis/connection.py", line 582, in read_response
+        raise response
+    ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[W 160726 17:02:06 index:106] connect to scheduler rpc error: error(111, 'Connection refused')
+[W 160726 17:02:21 index:106] connect to scheduler rpc error: error(111, 'Connection refused')
+[W 160726 17:02:36 index:106] connect to scheduler rpc error: error(111, 'Connection refused')
+[W 160726 17:02:51 index:106] connect to scheduler rpc error: error(111, 'Connection refused')
+[W 160726 17:03:06 index:106] connect to scheduler rpc error: error(111, 'Connection refused')
+[W 160726 17:03:21 index:106] connect to scheduler rpc error: error(111, 'Connection refused')
+[W 160726 17:03:36 index:106] connect to scheduler rpc error: error(111, 'Connection refused')
+[W 160726 17:03:51 index:106] connect to scheduler rpc error: error(111, 'Connection refused')
+[W 160726 17:04:06 index:106] connect to scheduler rpc error: error(111, 'Connection refused')
+[W 160726 17:04:21 index:106] connect to scheduler rpc error: error(111, 'Connection refused')
+[W 160726 17:04:36 index:106] connect to scheduler rpc error: error(111, 'Connection refused')
+[W 160726 17:04:51 index:106] connect to scheduler rpc error: error(111, 'Connection refused')
+[W 160726 17:05:06 index:106] connect to scheduler rpc error: error(111, 'Connection refused')
+[W 160726 17:05:21 index:106] connect to scheduler rpc error: error(111, 'Connection refused')
+[I 160726 17:05:37 result_worker:49] result_worker starting...
+[I 160726 17:05:37 result_worker:49] result_worker starting...
+[I 160726 17:05:37 result_worker:49] result_worker starting...
+[I 160726 17:05:37 result_worker:49] result_worker starting...
+[I 160726 17:05:37 result_worker:49] result_worker starting...
+[I 160726 17:05:37 result_worker:49] result_worker starting...
+[I 160726 17:05:37 result_worker:49] result_worker starting...
+[I 160726 17:05:37 result_worker:49] result_worker starting...
+[I 160726 17:05:37 result_worker:49] result_worker starting...
+[I 160726 17:05:37 result_worker:49] result_worker starting...
+[I 160726 17:05:37 result_worker:49] result_worker starting...
+[I 160726 17:05:37 result_worker:49] result_worker starting...
+[I 160726 17:05:37 result_worker:49] result_worker starting...
+[I 160726 17:05:37 result_worker:49] result_worker starting...
+[I 160726 17:05:37 result_worker:49] result_worker starting...
+[I 160726 17:05:38 tornado_fetcher:508] fetcher starting...
+[I 160726 17:05:38 tornado_fetcher:508] fetcher starting...
+[I 160726 17:05:38 tornado_fetcher:508] fetcher starting...
+[I 160726 17:05:38 tornado_fetcher:508] fetcher starting...
+[I 160726 17:05:38 tornado_fetcher:508] fetcher starting...
+[I 160726 17:05:38 tornado_fetcher:508] fetcher starting...
+[I 160726 17:05:38 tornado_fetcher:508] fetcher starting...
+[I 160726 17:05:38 tornado_fetcher:508] fetcher starting...
+[I 160726 17:05:38 tornado_fetcher:508] fetcher starting...
+[I 160726 17:05:38 tornado_fetcher:508] fetcher starting...
+[I 160726 17:05:38 tornado_fetcher:508] fetcher starting...
+[I 160726 17:05:38 tornado_fetcher:508] fetcher starting...
+[I 160726 17:05:38 tornado_fetcher:508] fetcher starting...
+[I 160726 17:05:38 tornado_fetcher:508] fetcher starting...
+[I 160726 17:05:38 tornado_fetcher:508] fetcher starting...
+[I 160726 17:05:38 processor:208] processor starting...
+[I 160726 17:05:38 processor:208] processor starting...
+[I 160726 17:05:38 processor:208] processor starting...
+[I 160726 17:05:38 processor:208] processor starting...
+[I 160726 17:05:38 processor:208] processor starting...
+[I 160726 17:05:38 processor:208] processor starting...
+[I 160726 17:05:38 processor:208] processor starting...
+[I 160726 17:05:38 processor:208] processor starting...
+Web server running on port 25555
+[I 160726 17:05:38 processor:208] processor starting...
+[I 160726 17:05:38 processor:208] processor starting...
+[I 160726 17:05:38 processor:208] processor starting...
+[I 160726 17:05:38 processor:208] processor starting...
+[I 160726 17:05:38 processor:208] processor starting...
+[I 160726 17:05:38 processor:208] processor starting...
+[I 160726 17:05:38 processor:208] processor starting...
+/usr/lib/python2.6/site-packages/Flask-0.11.1-py2.6.egg/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+[I 160726 17:05:38 scheduler:566] loading projects
+[I 160726 17:05:38 scheduler:862] select acca_accazhongguo:_on_get_info data:,_on_get_info
+[I 160726 17:05:38 tornado_fetcher:179] [200] acca_accazhongguo:_on_get_info data:,_on_get_info 0s
+[D 160726 17:05:38 project_module:143] project: acca_accazhongguo updated.
+[I 160726 17:05:38 processor:199] process acca_accazhongguo:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[E 160726 17:05:38 scheduler:238] unknown project: keyword_monitor_fuzzy
+[I 160726 17:05:38 scheduler:295] acca_accazhongguo on_get_info {u'min_tick': 3600, u'retry_delay': {}, u'crawl_config': {u'itag': u'0.1'}}
+[E 160726 17:05:38 counter:424] can't dump counter to file: ./data/scheduler.all
+[I 160726 17:05:38 scheduler:505] in 5m: new:0,success:0,retry:0,failed:0
+[I 160726 17:05:38 app:76] webui running on 172.16.10.1:5000
+[I 160726 17:05:39 scheduler:862] select chengxuyuan_boke:_on_get_info data:,_on_get_info
+[I 160726 17:05:39 scheduler:862] select gmat_zhan_inc:_on_get_info data:,_on_get_info
+[I 160726 17:05:39 scheduler:862] select gre_xiaozhan_inc:_on_get_info data:,_on_get_info
+[I 160726 17:05:39 tornado_fetcher:179] [200] chengxuyuan_boke:_on_get_info data:,_on_get_info 0s
+[I 160726 17:05:39 tornado_fetcher:179] [200] gmat_zhan_inc:_on_get_info data:,_on_get_info 0s
+[I 160726 17:05:39 scheduler:862] select inc_10_youku:_on_get_info data:,_on_get_info
+[I 160726 17:05:39 tornado_fetcher:179] [200] gre_xiaozhan_inc:_on_get_info data:,_on_get_info 0s
+[I 160726 17:05:39 tornado_fetcher:179] [200] inc_10_youku:_on_get_info data:,_on_get_info 0s
+[D 160726 17:05:39 project_module:143] project: chengxuyuan_boke updated.
+[I 160726 17:05:39 processor:199] process chengxuyuan_boke:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[D 160726 17:05:39 project_module:143] project: gre_xiaozhan_inc updated.
+[D 160726 17:05:39 project_module:143] project: gmat_zhan_inc updated.
+[D 160726 17:05:39 project_module:143] project: inc_10_youku updated.
+[I 160726 17:05:39 processor:199] process gmat_zhan_inc:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:39 processor:199] process inc_10_youku:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:39 processor:199] process gre_xiaozhan_inc:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:39 scheduler:862] select guitarchina_news:_on_get_info data:,_on_get_info
+[I 160726 17:05:39 tornado_fetcher:179] [200] guitarchina_news:_on_get_info data:,_on_get_info 0s
+[D 160726 17:05:39 project_module:143] project: guitarchina_news updated.
+[I 160726 17:05:39 processor:199] process guitarchina_news:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:39 scheduler:862] select jinrong_xinlang:_on_get_info data:,_on_get_info
+[I 160726 17:05:39 tornado_fetcher:179] [200] jinrong_xinlang:_on_get_info data:,_on_get_info 0s
+[I 160726 17:05:39 scheduler:862] select kaoyan_chinakaoyan_inc:_on_get_info data:,_on_get_info
+[I 160726 17:05:39 scheduler:862] select kaoyan_chsi:_on_get_info data:,_on_get_info
+[I 160726 17:05:39 tornado_fetcher:179] [200] kaoyan_chinakaoyan_inc:_on_get_info data:,_on_get_info 0s
+[I 160726 17:05:39 tornado_fetcher:179] [200] kaoyan_chsi:_on_get_info data:,_on_get_info 0s
+[I 160726 17:05:39 scheduler:862] select cet46_inc:_on_get_info data:,_on_get_info
+[I 160726 17:05:39 tornado_fetcher:179] [200] cet46_inc:_on_get_info data:,_on_get_info 0s
+[D 160726 17:05:39 project_module:143] project: jinrong_xinlang updated.
+[I 160726 17:05:39 processor:199] process jinrong_xinlang:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[D 160726 17:05:39 project_module:143] project: kaoyan_chinakaoyan_inc updated.
+[D 160726 17:05:39 project_module:143] project: kaoyan_chsi updated.
+[I 160726 17:05:39 processor:199] process kaoyan_chinakaoyan_inc:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:39 processor:199] process kaoyan_chsi:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[D 160726 17:05:39 project_module:143] project: cet46_inc updated.
+[I 160726 17:05:39 processor:199] process cet46_inc:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:40 scheduler:862] select qiuzhi_zhaopin:_on_get_info data:,_on_get_info
+[I 160726 17:05:40 tornado_fetcher:179] [200] qiuzhi_zhaopin:_on_get_info data:,_on_get_info 0s
+[D 160726 17:05:40 project_module:143] project: qiuzhi_zhaopin updated.
+[I 160726 17:05:40 processor:199] process qiuzhi_zhaopin:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:40 scheduler:862] select tiku_zhangmen_chuzhonghuaxue:_on_get_info data:,_on_get_info
+[I 160726 17:05:40 tornado_fetcher:179] [200] tiku_zhangmen_chuzhonghuaxue:_on_get_info data:,_on_get_info 0s
+[I 160726 17:05:40 scheduler:862] select tiku_zhangmen_chuzhonglishi:_on_get_info data:,_on_get_info
+[I 160726 17:05:40 scheduler:862] select tiku_zhangmen_chuzhongshengwu:_on_get_info data:,_on_get_info
+[I 160726 17:05:40 tornado_fetcher:179] [200] tiku_zhangmen_chuzhonglishi:_on_get_info data:,_on_get_info 0s
+[I 160726 17:05:40 tornado_fetcher:179] [200] tiku_zhangmen_chuzhongshengwu:_on_get_info data:,_on_get_info 0s
+[I 160726 17:05:40 scheduler:862] select tiku_zhangmen_chuzhongyuwen:_on_get_info data:,_on_get_info
+[I 160726 17:05:40 tornado_fetcher:179] [200] tiku_zhangmen_chuzhongyuwen:_on_get_info data:,_on_get_info 0s
+[I 160726 17:05:40 scheduler:862] select tiku_zhangmen_gaozhonglishi:_on_get_info data:,_on_get_info
+[I 160726 17:05:40 tornado_fetcher:179] [200] tiku_zhangmen_gaozhonglishi:_on_get_info data:,_on_get_info 0s
+[I 160726 17:05:40 scheduler:862] select tiku_zhangmen_gaozhongshengwu:_on_get_info data:,_on_get_info
+[D 160726 17:05:40 project_module:143] project: tiku_zhangmen_chuzhonghuaxue updated.
+[I 160726 17:05:40 processor:199] process tiku_zhangmen_chuzhonghuaxue:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[D 160726 17:05:40 project_module:143] project: tiku_zhangmen_chuzhonglishi updated.
+[D 160726 17:05:40 project_module:143] project: tiku_zhangmen_chuzhongshengwu updated.
+[I 160726 17:05:40 processor:199] process tiku_zhangmen_chuzhonglishi:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:40 processor:199] process tiku_zhangmen_chuzhongshengwu:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[D 160726 17:05:40 project_module:143] project: tiku_zhangmen_gaozhonglishi updated.
+[D 160726 17:05:40 project_module:143] project: tiku_zhangmen_chuzhongyuwen updated.
+[I 160726 17:05:40 processor:199] process tiku_zhangmen_gaozhonglishi:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:40 tornado_fetcher:179] [200] tiku_zhangmen_gaozhongshengwu:_on_get_info data:,_on_get_info 0s
+[I 160726 17:05:40 processor:199] process tiku_zhangmen_chuzhongyuwen:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[D 160726 17:05:40 project_module:143] project: tiku_zhangmen_gaozhongshengwu updated.
+[I 160726 17:05:40 scheduler:862] select tiku_zhangmen_gaozhongyingyu:_on_get_info data:,_on_get_info
+[I 160726 17:05:40 processor:199] process tiku_zhangmen_gaozhongshengwu:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:40 scheduler:862] select tiku_zhangmen_gaozhongzhengzhi:_on_get_info data:,_on_get_info
+[I 160726 17:05:40 tornado_fetcher:179] [200] tiku_zhangmen_gaozhongyingyu:_on_get_info data:,_on_get_info 0s
+[I 160726 17:05:40 tornado_fetcher:179] [200] tiku_zhangmen_gaozhongzhengzhi:_on_get_info data:,_on_get_info 0s
+[D 160726 17:05:40 project_module:143] project: tiku_zhangmen_gaozhongyingyu updated.
+[I 160726 17:05:40 processor:199] process tiku_zhangmen_gaozhongyingyu:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:40 scheduler:862] select toefl_xdf_inc:_on_get_info data:,_on_get_info
+[D 160726 17:05:40 project_module:143] project: tiku_zhangmen_gaozhongzhengzhi updated.
+[I 160726 17:05:40 tornado_fetcher:179] [200] toefl_xdf_inc:_on_get_info data:,_on_get_info 0s
+[I 160726 17:05:40 processor:199] process tiku_zhangmen_gaozhongzhengzhi:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[D 160726 17:05:40 project_module:143] project: toefl_xdf_inc updated.
+[I 160726 17:05:40 processor:199] process toefl_xdf_inc:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:40 scheduler:862] select toefl_xiaozhan_inc:_on_get_info data:,_on_get_info
+[I 160726 17:05:40 tornado_fetcher:179] [200] toefl_xiaozhan_inc:_on_get_info data:,_on_get_info 0s
+[I 160726 17:05:40 scheduler:862] select wenda2_xdf:_on_get_info data:,_on_get_info
+[I 160726 17:05:40 tornado_fetcher:179] [200] wenda2_xdf:_on_get_info data:,_on_get_info 0s
+[I 160726 17:05:40 scheduler:862] select kaoyan_eol_inc:_on_get_info data:,_on_get_info
+[I 160726 17:05:40 tornado_fetcher:179] [200] kaoyan_eol_inc:_on_get_info data:,_on_get_info 0s
+[D 160726 17:05:40 project_module:143] project: wenda2_xdf updated.
+[D 160726 17:05:40 project_module:143] project: kaoyan_eol_inc updated.
+[D 160726 17:05:40 project_module:143] project: toefl_xiaozhan_inc updated.
+[I 160726 17:05:40 processor:199] process kaoyan_eol_inc:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:40 scheduler:862] select kaoyan_kuakao:_on_get_info data:,_on_get_info
+[I 160726 17:05:40 processor:199] process wenda2_xdf:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:40 processor:199] process toefl_xiaozhan_inc:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:40 tornado_fetcher:179] [200] kaoyan_kuakao:_on_get_info data:,_on_get_info 0s
+[I 160726 17:05:40 scheduler:862] select kaoyan_yuloo:_on_get_info data:,_on_get_info
+[I 160726 17:05:40 tornado_fetcher:179] [200] kaoyan_yuloo:_on_get_info data:,_on_get_info 0s
+[I 160726 17:05:40 scheduler:862] select keyword_monitor_fuzzy:_on_get_info data:,_on_get_info
+[I 160726 17:05:40 tornado_fetcher:179] [200] keyword_monitor_fuzzy:_on_get_info data:,_on_get_info 0s
+[D 160726 17:05:40 project_module:143] project: kaoyan_kuakao updated.
+[I 160726 17:05:40 processor:199] process kaoyan_kuakao:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[D 160726 17:05:40 project_module:143] project: kaoyan_yuloo updated.
+[I 160726 17:05:40 processor:199] process kaoyan_yuloo:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[D 160726 17:05:40 project_module:143] project: keyword_monitor_fuzzy updated.
+[I 160726 17:05:40 processor:199] process keyword_monitor_fuzzy:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:40 scheduler:862] select yasi_xiaozhan_inc:_on_get_info data:,_on_get_info
+[I 160726 17:05:40 tornado_fetcher:179] [200] yasi_xiaozhan_inc:_on_get_info data:,_on_get_info 0s
+[D 160726 17:05:40 project_module:143] project: yasi_xiaozhan_inc updated.
+[I 160726 17:05:40 processor:199] process yasi_xiaozhan_inc:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:40 scheduler:862] select inc_16_guitarworld:_on_get_info data:,_on_get_info
+[I 160726 17:05:40 tornado_fetcher:179] [200] inc_16_guitarworld:_on_get_info data:,_on_get_info 0s
+[I 160726 17:05:40 scheduler:862] select jinrong_chinaacc:_on_get_info data:,_on_get_info
+[I 160726 17:05:40 tornado_fetcher:179] [200] jinrong_chinaacc:_on_get_info data:,_on_get_info 0s
+[D 160726 17:05:40 project_module:143] project: inc_16_guitarworld updated.
+[I 160726 17:05:40 processor:199] process inc_16_guitarworld:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[D 160726 17:05:40 project_module:143] project: jinrong_chinaacc updated.
+[I 160726 17:05:40 processor:199] process jinrong_chinaacc:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:40 scheduler:862] select kaoyan_kaoyan_inc:_on_get_info data:,_on_get_info
+[I 160726 17:05:40 tornado_fetcher:179] [200] kaoyan_kaoyan_inc:_on_get_info data:,_on_get_info 0s
+[I 160726 17:05:40 scheduler:862] select qiuzhi_shixisheng:_on_get_info data:,_on_get_info
+[I 160726 17:05:40 tornado_fetcher:179] [200] qiuzhi_shixisheng:_on_get_info data:,_on_get_info 0s
+[D 160726 17:05:40 project_module:143] project: kaoyan_kaoyan_inc updated.
+[D 160726 17:05:40 project_module:143] project: qiuzhi_shixisheng updated.
+[I 160726 17:05:40 processor:199] process qiuzhi_shixisheng:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:40 processor:199] process kaoyan_kaoyan_inc:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:41 scheduler:862] select sat_zhan_inc:_on_get_info data:,_on_get_info
+[I 160726 17:05:41 scheduler:862] select tiku_zhangmen_chuzhongwuli:_on_get_info data:,_on_get_info
+[I 160726 17:05:41 tornado_fetcher:179] [200] sat_zhan_inc:_on_get_info data:,_on_get_info 0s
+[I 160726 17:05:41 tornado_fetcher:179] [200] tiku_zhangmen_chuzhongwuli:_on_get_info data:,_on_get_info 0s
+[I 160726 17:05:41 scheduler:862] select tiku_zhangmen_chuzhongzhengzhi:_on_get_info data:,_on_get_info
+[I 160726 17:05:41 tornado_fetcher:179] [200] tiku_zhangmen_chuzhongzhengzhi:_on_get_info data:,_on_get_info 0s
+[I 160726 17:05:41 scheduler:862] select tiku_zmlearn_gaozhongyuwen:_on_get_info data:,_on_get_info
+[I 160726 17:05:41 tornado_fetcher:179] [200] tiku_zmlearn_gaozhongyuwen:_on_get_info data:,_on_get_info 0s
+[D 160726 17:05:41 project_module:143] project: tiku_zhangmen_chuzhongzhengzhi updated.
+[D 160726 17:05:41 project_module:143] project: tiku_zhangmen_chuzhongwuli updated.
+[I 160726 17:05:41 processor:199] process tiku_zhangmen_chuzhongzhengzhi:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:41 processor:199] process tiku_zhangmen_chuzhongwuli:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[D 160726 17:05:41 project_module:143] project: tiku_zmlearn_gaozhongyuwen updated.
+[I 160726 17:05:41 processor:199] process tiku_zmlearn_gaozhongyuwen:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[D 160726 17:05:41 project_module:143] project: sat_zhan_inc updated.
+[I 160726 17:05:41 processor:199] process sat_zhan_inc:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:41 scheduler:862] select wenda3_baidu:_on_get_info data:,_on_get_info
+[I 160726 17:05:41 tornado_fetcher:179] [200] wenda3_baidu:_on_get_info data:,_on_get_info 0s
+[D 160726 17:05:41 project_module:143] project: wenda3_baidu updated.
+[I 160726 17:05:41 processor:199] process wenda3_baidu:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:41 scheduler:862] select gmat_tiandao_inc:_on_get_info data:,_on_get_info
+[I 160726 17:05:41 tornado_fetcher:179] [200] gmat_tiandao_inc:_on_get_info data:,_on_get_info 0s
+[D 160726 17:05:41 project_module:143] project: gmat_tiandao_inc updated.
+[I 160726 17:05:41 processor:199] process gmat_tiandao_inc:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:41 scheduler:862] select gre_tiandao_inc:_on_get_info data:,_on_get_info
+[I 160726 17:05:41 tornado_fetcher:179] [200] gre_tiandao_inc:_on_get_info data:,_on_get_info 0s
+[D 160726 17:05:41 project_module:143] project: gre_tiandao_inc updated.
+[I 160726 17:05:41 processor:199] process gre_tiandao_inc:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:41 scheduler:862] select guitarworld_qa:_on_get_info data:,_on_get_info
+[I 160726 17:05:41 tornado_fetcher:179] [200] guitarworld_qa:_on_get_info data:,_on_get_info 0s
+[D 160726 17:05:41 project_module:143] project: guitarworld_qa updated.
+[I 160726 17:05:41 processor:199] process guitarworld_qa:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:41 scheduler:862] select iask_question:_on_get_info data:,_on_get_info
+[I 160726 17:05:41 tornado_fetcher:179] [200] iask_question:_on_get_info data:,_on_get_info 0s
+[I 160726 17:05:41 scheduler:862] select iask_sina:_on_get_info data:,_on_get_info
+[I 160726 17:05:41 tornado_fetcher:179] [200] iask_sina:_on_get_info data:,_on_get_info 0s
+[D 160726 17:05:41 project_module:143] project: iask_sina updated.
+[D 160726 17:05:41 project_module:143] project: iask_question updated.
+[I 160726 17:05:41 processor:199] process iask_question:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:41 processor:199] process iask_sina:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:52 scheduler:862] select imooc_wenda:_on_get_info data:,_on_get_info
+[I 160726 17:05:52 tornado_fetcher:179] [200] imooc_wenda:_on_get_info data:,_on_get_info 0s
+[D 160726 17:05:52 project_module:143] project: imooc_wenda updated.
+[I 160726 17:05:52 processor:199] process imooc_wenda:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:52 scheduler:862] select kaoyan_kaoshidian:_on_get_info data:,_on_get_info
+[I 160726 17:05:52 tornado_fetcher:179] [200] kaoyan_kaoshidian:_on_get_info data:,_on_get_info 0s
+[D 160726 17:05:52 project_module:143] project: kaoyan_kaoshidian updated.
+[I 160726 17:05:52 processor:199] process kaoyan_kaoshidian:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:52 scheduler:862] select wenda_gongwuyuan:_on_get_info data:,_on_get_info
+[I 160726 17:05:52 tornado_fetcher:179] [200] wenda_gongwuyuan:_on_get_info data:,_on_get_info 0s
+[D 160726 17:05:52 project_module:143] project: wenda_gongwuyuan updated.
+[I 160726 17:05:52 processor:199] process wenda_gongwuyuan:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:52 scheduler:862] select wenda_ntce:_on_get_info data:,_on_get_info
+[I 160726 17:05:52 tornado_fetcher:179] [200] wenda_ntce:_on_get_info data:,_on_get_info 0s
+[D 160726 17:05:53 project_module:143] project: wenda_ntce updated.
+[I 160726 17:05:53 processor:199] process wenda_ntce:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:53 scheduler:862] select xiaoxue_51edu_news:_on_get_info data:,_on_get_info
+[I 160726 17:05:53 tornado_fetcher:179] [200] xiaoxue_51edu_news:_on_get_info data:,_on_get_info 0s
+[I 160726 17:05:53 scheduler:862] select xiaoxue_ruyile:_on_get_info data:,_on_get_info
+[I 160726 17:05:53 tornado_fetcher:179] [200] xiaoxue_ruyile:_on_get_info data:,_on_get_info 0s
+[D 160726 17:05:53 project_module:143] project: xiaoxue_51edu_news updated.
+[I 160726 17:05:53 processor:199] process xiaoxue_51edu_news:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[D 160726 17:05:53 project_module:143] project: xiaoxue_ruyile updated.
+[I 160726 17:05:53 processor:199] process xiaoxue_ruyile:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:53 scheduler:862] select shunshun_wenda:_on_get_info data:,_on_get_info
+[I 160726 17:05:53 tornado_fetcher:179] [200] shunshun_wenda:_on_get_info data:,_on_get_info 0s
+[D 160726 17:05:53 project_module:143] project: shunshun_wenda updated.
+[I 160726 17:05:53 processor:199] process shunshun_wenda:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:53 scheduler:862] select tiku_zhangmen_gaozhongdili:_on_get_info data:,_on_get_info
+[I 160726 17:05:53 tornado_fetcher:179] [200] tiku_zhangmen_gaozhongdili:_on_get_info data:,_on_get_info 0s
+[D 160726 17:05:53 project_module:143] project: tiku_zhangmen_gaozhongdili updated.
+[I 160726 17:05:53 processor:199] process tiku_zhangmen_gaozhongdili:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:53 scheduler:862] select tiku_zhangmen_gaozhongshuxue:_on_get_info data:,_on_get_info
+[I 160726 17:05:53 tornado_fetcher:179] [200] tiku_zhangmen_gaozhongshuxue:_on_get_info data:,_on_get_info 0s
+[D 160726 17:05:53 project_module:143] project: tiku_zhangmen_gaozhongshuxue updated.
+[I 160726 17:05:53 processor:199] process tiku_zhangmen_gaozhongshuxue:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:54 scheduler:862] select tiku_zhangmen_gaozhongwuli:_on_get_info data:,_on_get_info
+[I 160726 17:05:54 tornado_fetcher:179] [200] tiku_zhangmen_gaozhongwuli:_on_get_info data:,_on_get_info 0s
+[D 160726 17:05:54 project_module:143] project: tiku_zhangmen_gaozhongwuli updated.
+[I 160726 17:05:54 scheduler:862] select toefl_taisha_inc:_on_get_info data:,_on_get_info
+[I 160726 17:05:54 processor:199] process tiku_zhangmen_gaozhongwuli:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:54 tornado_fetcher:179] [200] toefl_taisha_inc:_on_get_info data:,_on_get_info 0s
+[D 160726 17:05:54 project_module:143] project: toefl_taisha_inc updated.
+[I 160726 17:05:54 processor:199] process toefl_taisha_inc:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160726 17:05:54 scheduler:862] select youshengxiao_ysxiao_zhongdianxiaoxue:_on_get_info data:,_on_get_info
+[I 160726 17:05:54 tornado_fetcher:179] [200] youshengxiao_ysxiao_zhongdianxiaoxue:_on_get_info data:,_on_get_info 0s
+[D 160726 17:05:54 project_module:143] project: youshengxiao_ysxiao_zhongdianxiaoxue updated.
+[I 160726 17:05:54 processor:199] process youshengxiao_ysxiao_zhongdianxiaoxue:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[E 160726 17:11:09 scheduler:238] unknown project: wenda_tianxing
+[E 160726 17:11:31 scheduler:238] unknown project: wenda_tianxing
+[E 160726 17:15:16 scheduler:238] unknown project: wenda_tianxing

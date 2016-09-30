@@ -1,0 +1,49 @@
+
+[I 160725 12:40:24 scheduler:862] select qiuzhi_shixisheng:_on_get_info data:,_on_get_info
+[I 160725 12:40:24 tornado_fetcher:179] [200] qiuzhi_shixisheng:_on_get_info data:,_on_get_info 0s
+[D 160725 12:40:24 project_module:143] project: qiuzhi_shixisheng updated.
+[I 160725 12:40:24 processor:199] process qiuzhi_shixisheng:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160725 12:40:24 scheduler:862] select qiuzhi_zhaopin:_on_get_info data:,_on_get_info
+[I 160725 12:40:24 tornado_fetcher:179] [200] qiuzhi_zhaopin:_on_get_info data:,_on_get_info 0s
+[D 160725 12:40:24 project_module:143] project: qiuzhi_zhaopin updated.
+[I 160725 12:40:24 processor:199] process qiuzhi_zhaopin:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160725 12:40:24 scheduler:862] select sat_zhan_inc:_on_get_info data:,_on_get_info
+[I 160725 12:40:24 tornado_fetcher:179] [200] sat_zhan_inc:_on_get_info data:,_on_get_info 0s
+[D 160725 12:40:24 project_module:143] project: sat_zhan_inc updated.
+[I 160725 12:40:24 processor:199] process sat_zhan_inc:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160725 12:40:24 scheduler:862] select tiku_zhangmen_chuzhonglishi:_on_get_info data:,_on_get_info
+[I 160725 12:40:24 tornado_fetcher:179] [200] tiku_zhangmen_chuzhonglishi:_on_get_info data:,_on_get_info 0s
+[D 160725 12:40:24 project_module:143] project: tiku_zhangmen_chuzhonglishi updated.
+[I 160725 12:40:24 processor:199] process tiku_zhangmen_chuzhonglishi:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160725 12:40:24 scheduler:862] select tiku_zhangmen_chuzhongshengwu:_on_get_info data:,_on_get_info
+[I 160725 12:40:24 tornado_fetcher:179] [200] tiku_zhangmen_chuzhongshengwu:_on_get_info data:,_on_get_info 0s
+[D 160725 12:40:24 project_module:143] project: tiku_zhangmen_chuzhongshengwu updated.
+[I 160725 12:40:24 processor:199] process tiku_zhangmen_chuzhongshengwu:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160725 12:40:24 scheduler:862] select tiku_zhangmen_gaozhonghuaxue:_on_get_info data:,_on_get_info
+[I 160725 12:40:24 scheduler:862] select tiku_zmlearn_gaozhongyuwen:_on_get_info data:,_on_get_info
+[I 160725 12:40:24 tornado_fetcher:179] [200] tiku_zhangmen_gaozhonghuaxue:_on_get_info data:,_on_get_info 0s
+[I 160725 12:40:24 tornado_fetcher:179] [200] tiku_zmlearn_gaozhongyuwen:_on_get_info data:,_on_get_info 0s
+[D 160725 12:40:24 project_module:143] project: tiku_zmlearn_gaozhongyuwen updated.
+[D 160725 12:40:24 project_module:143] project: tiku_zhangmen_gaozhonghuaxue updated.
+[I 160725 12:40:24 processor:199] process tiku_zmlearn_gaozhongyuwen:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160725 12:40:24 processor:199] process tiku_zhangmen_gaozhonghuaxue:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160725 12:40:25 scheduler:862] select xiaoxue_51edu_news:_on_get_info data:,_on_get_info
+[I 160725 12:40:25 tornado_fetcher:179] [200] xiaoxue_51edu_news:_on_get_info data:,_on_get_info 0s
+[D 160725 12:40:25 project_module:143] project: xiaoxue_51edu_news updated.
+[I 160725 12:40:25 processor:199] process xiaoxue_51edu_news:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160725 12:40:25 scheduler:862] select yasi_taisha_inc:_on_get_info data:,_on_get_info
+[I 160725 12:40:25 tornado_fetcher:179] [200] yasi_taisha_inc:_on_get_info data:,_on_get_info 0s
+[D 160725 12:40:25 project_module:143] project: yasi_taisha_inc updated.
+[I 160725 12:40:25 processor:199] process yasi_taisha_inc:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160725 12:40:26 scheduler:862] select xiaoxue_ruyile:_on_get_info data:,_on_get_info
+[I 160725 12:40:26 tornado_fetcher:179] [200] xiaoxue_ruyile:_on_get_info data:,_on_get_info 0s
+[D 160725 12:40:26 project_module:143] project: xiaoxue_ruyile updated.
+[I 160725 12:40:26 processor:199] process xiaoxue_ruyile:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160725 12:40:26 scheduler:862] select yasi_xiaozhan_inc:_on_get_info data:,_on_get_info
+[I 160725 12:40:26 tornado_fetcher:179] [200] yasi_xiaozhan_inc:_on_get_info data:,_on_get_info 0s
+[D 160725 12:40:26 project_module:143] project: yasi_xiaozhan_inc updated.
+[I 160725 12:40:26 processor:199] process yasi_xiaozhan_inc:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
+[I 160725 12:40:27 scheduler:862] select youshengxiao_ysxiao_zhongdianxiaoxue:_on_get_info data:,_on_get_info
+[I 160725 12:40:27 tornado_fetcher:179] [200] youshengxiao_ysxiao_zhongdianxiaoxue:_on_get_info data:,_on_get_info 0s
+[D 160725 12:40:27 project_module:143] project: youshengxiao_ysxiao_zhongdianxiaoxue updated.
+[I 160725 12:40:27 processor:199] process youshengxiao_ysxiao_zhongdianxiaoxue:_on_get_info data:,_on_get_info -> [200] len:12 -> result:None fol:0 msg:0 err:None
