@@ -57,6 +57,7 @@ find . -type f | xargs grep -l "xy"
 find .|xargs grep -ri "IBM" -l 
 find -type f -name '*wenda*'|xargs grep -l '"class": 34'
 find *wenda*|xargs grep -l '"class": 34'
+➜  pyspider find */*.py |xargs grep -l 'class Handler(BaseHandler)'
 
 查找具有某个内容字符串的文件名
 -r ：递归查找子目录
