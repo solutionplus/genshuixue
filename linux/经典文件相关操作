@@ -1,7 +1,23 @@
 经典文件相关操作
+
+linux生成文件下载链接
+ftp://`hostname`/`pwd`/image_score.tar.gz
+ftp://cp01-rdqa04-dev122.cp01.baidu.com/tmp/image_score.tar.gz
+
+统计每个文件的行数
+wc -l *
+
 删除某个文件以外的其他文件
 rm -rf `ll | grep -v 正则表达式`
 ll | grep -v 'inc'
+
+md5生成
+linux:md5sum 文件
+mac:md5 -r 文件
+
+查看端口占用
+netstat -tunlp |grep 8888
+lsof -i:8888
 
 vim中的最小匹配（非贪婪）
 /a.\{-}b
@@ -21,14 +37,11 @@ vim取消注释
 远程复制文件
 scp rd@172.16.10.1:/apps/home/rd/zengsheng/jingyan2_gaosanwang .
 
-复制文件夹
-cp -r 文件夹 目录
-
-打包
-zip -r 命名.zip 待打包文件夹
-
 awk命令
 cat  zhanqun_id_infos| awk -F "\x01" '{if($3=="鼓") print $NF}' | more
+cat ../raw_bak/raw.56 | awk -F"\t" '{if(length($34)==0 && $16==1 && $15>=1451577600 && $2=="aipai.com") {print $1,$31,$32,$34,$2}}'| wc -l
+cat ./data/urls_today_$sitename | awk -F'\t' '{if($1==0){print $2}}' | awk -v site=$sitename 'BEGIN{cnt=0;group=1;} {if(cnt%1000 == 0){group += 1;} cnt+=1; print $0>"./data/urls_today_"site"_"group;}'
+tail aipai.com  | awk -F"," '{print $6"="$7}' | awk -F"=" '{print $2,$4}' | awk -F"'" '{print $2"\t"$4}'
 
 查找大于100M的文件
 find . [-type f] -size +100M
@@ -40,6 +53,7 @@ du -sh `find . -type f -size +10M`
 查看文件大小
 du -sh jzgc_zhengbao
 ll -h 
+du -m /home/video/vor_realtime/img_update/log/all_info.log | awk '{print $1}
 
 查看当前目录下各文件所占大小
 du -h
@@ -52,6 +66,7 @@ find ciku.txt -type f | xargs grep "^[y-z]"
 
 查找匹配正则表达式的文本的名称
 find . -type f | xargs grep -l "xy"
+fgrep
 
 查找目录下的所有文件中是否含有某个字符串,并且只打印出文件名
 find .|xargs grep -ri "IBM" -l 
@@ -120,5 +135,9 @@ split -l 30000  wenda_baidu_new2 wenda_baidu_new
 gzip wenda_baidu_new3a*
 gunzip 20160910*/wenda*
 
+查看已安装的包
+pip freeze
+
 请写出统计9月6日19点至19点09分59秒的Baiduspider爬取的top10链接地址的shell命令 
-grep '06/Sep/2016:19:0.* +0800' /apps/log/dieout/2016-09-06/apps/log/nginx/www.genshuixue.com.access.log/* |grep Baiduspider | awk -F'^A'  '{print $6}' | sort -k 1 | uniq -c | sort –rnk 1 | head -10
+grep '06/Sep/2016:19:0.* +0800' /apps/log/dieout/2016-09-06/apps/log/nginx/www.genshuixue.com.access.log/*
+ |grep Baiduspider | awk -F'^A'  '{print $6}' | sort -k 1 | uniq -c | sort –rnk 1 | head -10
